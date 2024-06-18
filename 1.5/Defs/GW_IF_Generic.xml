@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <DesignationCategoryDef>
+        <defName>GW_IF_Furniture</defName>
+        <label>40k furniture</label>
+        <order>9</order>
+        <specialDesignatorClasses>
+            <li>Designator_Cancel</li>
+            <li>Designator_Deconstruct</li>
+        </specialDesignatorClasses>
+    </DesignationCategoryDef>
+</Defs>

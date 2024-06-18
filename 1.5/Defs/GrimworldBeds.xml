@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="Bed">
+        <defName>GW_IF_Hivebed</defName>
+        <label>hivebed</label>
+        <description>Hivebed</description>
+        <designationCategory>GW_IF_Furniture</designationCategory>
+        <graphicData>
+            <texPath>Furniture/Bed/Hivebed/Hivebed</texPath>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="Bed">
+        <defName>GW_IF_MedicaeBed</defName>
+        <label>medicae bed</label>
+        <description>Medicae bed</description>
+        <designationCategory>GW_IF_Furniture</designationCategory>
+        <graphicData>
+            <texPath>Furniture/Bed/Medicae/medicaebed</texPath>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="Bed">
+        <defName>GW_IF_UpperHivebed</defName>
+        <label>upper hivebed</label>
+        <description>Upper hivebed</description>
+        <designationCategory>GW_IF_Furniture</designationCategory>
+        <graphicData>
+            <texPath>Furniture/Bed/UpperHivebed/Upperhivebed</texPath>
+        </graphicData>
+    </ThingDef>
+</Defs>

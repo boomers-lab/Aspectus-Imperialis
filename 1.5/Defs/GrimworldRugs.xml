@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef Abstract="True" Name="GW_IF_RugBase" ParentName="BuildingBase">
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>      
+        <altitudeLayer>FloorCoverings</altitudeLayer>
+        <wipesPlants>true</wipesPlants>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsFurniture</li>
+        </thingCategories>
+        <statBases>
+            <Flammability>0.32</Flammability>
+        </statBases>
+        <designationCategory>GW_IF_Furniture</designationCategory>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <selectable>true</selectable>
+        <useHitPoints>true</useHitPoints>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <blocksAltitudes>
+            <li>FloorCoverings</li>
+        </blocksAltitudes>
+        <researchPrerequisites>
+            <li>CarpetMaking</li>
+        </researchPrerequisites>      
+        <building>
+            <isEdifice>false</isEdifice>
+        </building>
+        <comps>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+        </comps>      
+    </ThingDef>
+    
+    <ThingDef ParentName="GW_IF_RugBase"> <!--all stats are based on vanilla rug of same size-->
+        <defName>GW_IF_4x4MundaneRug</defName>
+        <label>imperial rug (4x4)</label>
+        <description>It's a rug.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Furniture/Rugs/Rug4x4</texPath>
+            <drawSize>(4, 4)</drawSize>
+        </graphicData>
+        <costStuffCount>150</costStuffCount>
+        <size>(4,4)</size>
+        <statBases>
+            <Beauty>10</Beauty>
+            <WorkToBuild>2000</WorkToBuild>
+            <Mass>150</Mass>
+        </statBases>
+    </ThingDef>
+
+    <!--all stats for the rest of the mundane rugs are just scaled versions of the 4x4-->
+    <ThingDef ParentName="GW_IF_RugBase"> 
+        <defName>GW_IF_4x6MundaneRug</defName>
+        <label>imperial rug (4x6)</label>
+        <description>It's a rug.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Furniture/Rugs/RugGrand4x6</texPath>
+            <drawSize>(4, 6)</drawSize>
+        </graphicData>
+        <costStuffCount>225</costStuffCount>
+        <size>(4,6)</size>
+        <statBases>
+            <Beauty>10</Beauty>
+            <WorkToBuild>3000</WorkToBuild>
+            <Mass>225</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_IF_RugBase"> 
+        <defName>GW_IF_3x6MundaneRug</defName>
+        <label>imperial rug (3x6)</label>
+        <description>It's a rug.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Furniture/Rugs/RugLong3x6</texPath>
+            <drawSize>(3, 6)</drawSize>
+        </graphicData>
+        <costStuffCount>170</costStuffCount>
+        <size>(3,6)</size>
+        <statBases>
+            <Beauty>10</Beauty>
+            <WorkToBuild>2250</WorkToBuild>
+            <Mass>170</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_IF_RugBase"> 
+        <defName>GW_IF_8x8MundaneRug</defName>
+        <label>imperial rug (8x8)</label>
+        <description>It's a rug.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Furniture/Rugs/RugGrandGrand8x8</texPath>
+            <drawSize>(8, 8)</drawSize>
+        </graphicData>
+        <costStuffCount>600</costStuffCount>
+        <size>(8,8)</size>
+        <statBases>
+            <Beauty>10</Beauty>
+            <WorkToBuild>8000</WorkToBuild>
+            <Mass>600</Mass>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_IF_RugBase"> <!--all stats are based on vanilla rug of same size with some gold added in-->
+        <defName>GW_IF_4x4RoyalRug</defName>
+        <label>royal imperial rug (4x4)</label>
+        <description>It's a rug.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Furniture/Rugs/RugRoyal4x4</texPath>
+            <drawSize>(4, 4)</drawSize>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>150</costStuffCount>
+        <size>(4,4)</size>
+        <statBases>
+            <Beauty>50</Beauty>
+            <WorkToBuild>8000</WorkToBuild>
+            <Mass>150</Mass>
+        </statBases>
+        <costList>
+            <Gold>30</Gold>
+        </costList>
+    </ThingDef>
+
+    <!--all stats for the rest of the royal rugs are just scaled versions of the 4x4-->
+    <ThingDef ParentName="GW_IF_RugBase"> 
+        <defName>GW_IF_4x6RoyalRug</defName>
+        <label>royal imperial rug (4x6)</label>
+        <description>It's a rug.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Furniture/Rugs/RugRoyalGrand4x6</texPath>
+            <drawSize>(4, 6)</drawSize>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>225</costStuffCount>
+        <size>(4,6)</size>
+        <statBases>
+            <Beauty>50</Beauty>
+            <WorkToBuild>12000</WorkToBuild>
+            <Mass>225</Mass>
+        </statBases>
+        <costList>
+            <Gold>45</Gold>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_IF_RugBase"> 
+        <defName>GW_IF_3x6RoyalRug</defName>
+        <label>royal imperial rug (3x6)</label>
+        <description>It's a rug.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Furniture/Rugs/RugLongRoyal3x6</texPath>
+            <drawSize>(3, 6)</drawSize>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>170</costStuffCount>
+        <size>(3,6)</size>
+        <statBases>
+            <Beauty>50</Beauty>
+            <WorkToBuild>9000</WorkToBuild>
+            <Mass>170</Mass>
+        </statBases>
+        <costList>
+            <Gold>35</Gold>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_IF_RugBase"> 
+        <defName>GW_IF_8x8RoyalRug</defName>
+        <label>royal imperial rug (8x8)</label>
+        <description>It's a rug.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Furniture/Rugs/RugRoyalGrandGrand8x8</texPath>
+            <drawSize>(8, 8)</drawSize>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costStuffCount>600</costStuffCount>
+        <size>(8,8)</size>
+        <statBases>
+            <Beauty>50</Beauty>
+            <WorkToBuild>32000</WorkToBuild>
+            <Mass>600</Mass>
+        </statBases>
+        <costList>
+            <Gold>120</Gold>
+        </costList>
+    </ThingDef>
+</Defs>

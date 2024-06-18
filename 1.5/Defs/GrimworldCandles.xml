@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef Name="GW_IF_CandleBase" ParentName="BuildingBase" Abstract="True">
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(2, 2)</drawSize>
+        </graphicData>
+        <passability>Standable</passability>
+        <altitudeLayer>Item</altitudeLayer>
+        <designationCategory>GW_IF_Furniture</designationCategory>
+        <size>(1,1)</size>
+        <statBases>
+            <Beauty>1</Beauty>
+            <WorkToBuild>300</WorkToBuild>
+            <Mass>0.1</Mass>
+        </statBases>
+        <costList> <!--If some should have different costs, this can be copied/moved to individual ones-->
+            <WoodLog>5</WoodLog>
+        </costList>
+        <building>
+            <isEdifice>False</isEdifice>
+        </building>
+        <blocksAltitudes>
+            <li>Item</li>
+        </blocksAltitudes>
+        <defaultPlacingRot>South</defaultPlacingRot>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_IF_CandleBase">
+        <defName>GW_IF_Candle</defName>
+        <label>candle</label>
+        <description>candle</description>
+        <graphicData>
+            <texPath>Furniture/Candles/Candle</texPath>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_IF_CandleBase">
+        <defName>GW_IF_CandlesWax</defName>
+        <label>candles (wax)</label>
+        <description>candles</description>
+        <graphicData>
+            <texPath>Furniture/Candles/CandlesWax</texPath>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_IF_CandleBase">
+        <defName>GW_IF_Candelabra</defName>
+        <label>candelabra</label>
+        <description>candelabra</description>
+        <graphicData>
+            <texPath>Furniture/Candles/Candelabra</texPath>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_IF_CandleBase">
+        <defName>GW_IF_CandleSkull</defName>
+        <label>candle (skull)</label>
+        <description>candle</description>
+        <graphicData>
+            <texPath>Furniture/Candles/CandleSkull</texPath>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_IF_CandleBase">
+        <defName>GW_IF_CandleStand</defName>
+        <label>candle (stand)</label>
+        <description>candle</description>
+        <graphicData>
+            <texPath>Furniture/Candles/CandleStand</texPath>
+        </graphicData>
+    </ThingDef>
+</Defs>
