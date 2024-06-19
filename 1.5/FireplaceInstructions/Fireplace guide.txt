@@ -1,5 +1,5 @@
 <comps>
-                <li Class="DankPyon_MedievalOverhaul.CompProperties_FireOverlaySouth">
+                <li Class="CompProperties_FireOverlaySouth">
                         <fireSize>0.7</fireSize>
                      <offset>(0,0,-0.2)</offset>
                  </li>
