@@ -2,7 +2,7 @@
 <Defs>
     <DesignationCategoryDef>
         <defName>GW_IF_Furniture</defName>
-        <label>40k furniture</label>
+        <label>GW furniture</label>
         <order>9</order>
         <specialDesignatorClasses>
             <li>Designator_Cancel</li>
