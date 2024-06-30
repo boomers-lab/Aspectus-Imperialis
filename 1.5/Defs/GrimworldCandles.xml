@@ -46,6 +46,7 @@
         <defName>GW_IF_Candle</defName>
         <label>candle</label>
         <description>candle</description>
+        <tickerType>Normal</tickerType>
         <graphicData>
             <texPath>Furniture/Candles/Candle</texPath>
         </graphicData>
@@ -55,6 +56,7 @@
         <defName>GW_IF_CandlesWax</defName>
         <label>candles (wax)</label>
         <description>candles</description>
+        <tickerType>Normal</tickerType>
         <graphicData>
             <texPath>Furniture/Candles/CandlesWax</texPath>
         </graphicData>
@@ -67,6 +69,7 @@
         <graphicData>
             <texPath>Furniture/Candles/Candelabra</texPath>
         </graphicData>
+        <tickerType>Normal</tickerType>
         <costList>
             <Steel>10</Steel>
         </costList>
@@ -92,6 +95,7 @@
         <defName>GW_IF_CandleSkull</defName>
         <label>candle (skull)</label>
         <description>candle</description>
+        <tickerType>Normal</tickerType>
         <graphicData>
             <texPath>Furniture/Candles/CandleSkull</texPath>
         </graphicData>
@@ -107,6 +111,7 @@
         <graphicData>
             <texPath>Furniture/Candles/CandleStand</texPath>
         </graphicData>
+        <tickerType>Normal</tickerType>
         <costList>
             <Steel>15</Steel>
         </costList>
