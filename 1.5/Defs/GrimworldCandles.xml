@@ -10,7 +10,7 @@
         <designationCategory>GW_IF_Furniture</designationCategory>
         <size>(1,1)</size>
         <statBases>
-            <Beauty>1</Beauty>
+            <Beauty>2</Beauty>
             <WorkToBuild>300</WorkToBuild>
             <Mass>0.1</Mass>
         </statBases>
@@ -24,6 +24,22 @@
             <li>Item</li>
         </blocksAltitudes>
         <defaultPlacingRot>South</defaultPlacingRot>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>5</glowRadius>
+                <glowColor>(252,187,113,0)</glowColor>
+            </li>
+            <li Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>5.0</fuelConsumptionRate>
+                <fuelCapacity>25.0</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>WoodLog</li>
+                    </thingDefs>
+                </fuelFilter>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="GW_IF_CandleBase">
@@ -51,6 +67,25 @@
         <graphicData>
             <texPath>Furniture/Candles/Candelabra</texPath>
         </graphicData>
+        <costList>
+            <Steel>10</Steel>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>7</glowRadius>
+                <glowColor>(252,187,113,0)</glowColor>
+            </li>
+            <li Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>7.0</fuelConsumptionRate>
+                <fuelCapacity>30.0</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>WoodLog</li>
+                    </thingDefs>
+                </fuelFilter>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+        </comps>
     </ThingDef>
 
     <ThingDef ParentName="GW_IF_CandleBase">
@@ -60,6 +95,9 @@
         <graphicData>
             <texPath>Furniture/Candles/CandleSkull</texPath>
         </graphicData>
+        <costList>
+            <Skull>1</Skull>
+        </costList>
     </ThingDef>
 
     <ThingDef ParentName="GW_IF_CandleBase">
@@ -69,5 +107,24 @@
         <graphicData>
             <texPath>Furniture/Candles/CandleStand</texPath>
         </graphicData>
+        <costList>
+            <Steel>15</Steel>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>7</glowRadius>
+                <glowColor>(252,187,113,0)</glowColor>
+            </li>
+            <li Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>7.0</fuelConsumptionRate>
+                <fuelCapacity>30.0</fuelCapacity>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>WoodLog</li>
+                    </thingDefs>
+                </fuelFilter>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            </li>
+        </comps>
     </ThingDef>
 </Defs>
