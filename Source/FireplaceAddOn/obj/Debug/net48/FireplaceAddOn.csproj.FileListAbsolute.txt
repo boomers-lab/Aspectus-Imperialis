@@ -1,0 +1,9 @@
+/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/obj/Debug/net48/FireplaceAddOn.csproj.AssemblyReference.cache
+/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/obj/Debug/net48/FireplaceAddOn.GeneratedMSBuildEditorConfig.editorconfig
+/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/obj/Debug/net48/FireplaceAddOn.AssemblyInfoInputs.cache
+/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/obj/Debug/net48/FireplaceAddOn.AssemblyInfo.cs
+/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/obj/Debug/net48/FireplaceAddOn.csproj.CoreCompileInputs.cache
+/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/bin/Debug/net48/FireplaceAddOn.dll
+/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/bin/Debug/net48/FireplaceAddOn.pdb
+/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/obj/Debug/net48/FireplaceAddOn.dll
+/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/obj/Debug/net48/FireplaceAddOn.pdb

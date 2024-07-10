@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = FireplaceAddOn
+build_property.ProjectDir = /home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

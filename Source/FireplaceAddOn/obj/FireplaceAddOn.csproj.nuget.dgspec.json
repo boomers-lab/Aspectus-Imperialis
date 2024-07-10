@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/FireplaceAddOn.csproj": {}
+  },
+  "projects": {
+    "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/FireplaceAddOn.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/FireplaceAddOn.csproj",
+        "projectName": "FireplaceAddOn",
+        "projectPath": "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/FireplaceAddOn.csproj",
+        "packagesPath": "/home/yakhmet/.nuget/packages/",
+        "outputPath": "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yakhmet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Krafs.Rimworld.Ref": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[1.4.3901, )"
+            },
+            "Lib.Harmony": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[2.3.1.1, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.105/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

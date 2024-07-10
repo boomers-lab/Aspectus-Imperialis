@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "x5i3ti6FCOYUHn3vYOzu3PT/dX6xMAyhMqckriNr6rBJ2kvE8yE5Cl1Xjyu+4IyOBRVjj6vO9Kr584tAl/qtQw==",
+  "success": true,
+  "projectFilePath": "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/GrimWorld-Framework-main/Source/GrimWorld-Framework/FireplaceAddOn/FireplaceAddOn.csproj",
+  "expectedPackageFiles": [
+    "/home/yakhmet/.nuget/packages/krafs.rimworld.ref/1.4.3901/krafs.rimworld.ref.1.4.3901.nupkg.sha512",
+    "/home/yakhmet/.nuget/packages/lib.harmony/2.3.1.1/lib.harmony.2.3.1.1.nupkg.sha512",
+    "/home/yakhmet/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/yakhmet/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
