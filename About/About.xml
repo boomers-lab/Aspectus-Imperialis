@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Imperial Furniture</name>
+  <name>Aspectus Imperialis</name>
   <author>Clashgore, Alite, DogDough, SirLalaPyon</author>
-  <packageId>Grimworld.ImperialFurniture</packageId>
+  <packageId>Grimworld.AspectusImperialis</packageId>
   <supportedVersions>
     <li>1.5</li>
   </supportedVersions>
