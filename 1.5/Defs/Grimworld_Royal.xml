@@ -17,7 +17,7 @@
 		<label>imperial royal table (1x1)</label>
 		<description>table</description>
 		<graphicData>
-			<texPath>Things/Furniture/Furnitures/TableRoyal1x1</texPath>
+			<texPath>Furniture/Furnitures/TableRoyal1x1</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<damageData>
@@ -45,7 +45,7 @@
 		<label>imperial royal table (2x1)</label>
 		<description>table</description>
 		<graphicData>
-			<texPath>Things/Furniture/Furnitures/TableRoyal1x2</texPath>
+			<texPath>Furniture/Furnitures/TableRoyal1x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,4)</drawSize>
 			<damageData>
@@ -73,7 +73,7 @@
     <label>table royal (2x2)</label>
 	<description>table</description>
     <graphicData>
-      <texPath>Things/Furniture/Furnitures/TableRoyal2x2</texPath>
+      <texPath>Furniture/Furnitures/TableRoyal2x2</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(4,4)</drawSize>
       <damageData>
@@ -103,7 +103,7 @@
     <label>table royal (2x4)</label>
 	<description>table</description>
     <graphicData>
-      <texPath>Things/Furniture/Furnitures/TableRoyal2x4</texPath>
+      <texPath>Furniture/Furnitures/TableRoyal2x4</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(4,6)</drawSize>
       <damageData>
@@ -132,7 +132,7 @@
     <label>table (3x3)</label>
 	<description>table</description>
     <graphicData>
-      <texPath>Things/Furniture/Furnitures/TableRoyal3x3</texPath>
+      <texPath>Furniture/Furnitures/TableRoyal3x3</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(5, 5)</drawSize>
       <damageData>
@@ -162,7 +162,7 @@
     <label>imperial royal chair</label>
     <description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</description>
     <graphicData>
-      <texPath>Things/Furniture/Furnitures/ChairRoyal</texPath>
+      <texPath>Furniture/Furnitures/ChairRoyal</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(1,1)</drawSize>
       <damageData>
