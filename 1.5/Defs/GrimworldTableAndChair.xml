@@ -7,7 +7,7 @@
 		<graphicData>
 			<texPath>Furniture/Furnitures/TableCommon1x1</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(2.5,2.5)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -122,7 +122,7 @@
     <graphicData>
       <texPath>Furniture/Furnitures/TableCommon3x3</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(5, 5)</drawSize>
+      <drawSize>(4, 4)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -152,7 +152,8 @@
     <graphicData>
       <texPath>Furniture/Furnitures/ChairCommon</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(1,1)</drawSize>
+      <drawSize>(2.5,2.5)</drawSize>
+	  <drawOffset>(0,0,0.1)</drawOffset>
       <damageData>
         <rectN>(0.25,0.234375,0.5,0.28125)</rectN>
         <rectS>(0.25,0.234375,0.5,0.28125)</rectS>
@@ -163,6 +164,8 @@
         <volume>(0.23, 0.26, 0.23)</volume>
       </shadowData>
     </graphicData>
+	<designationCategory>GW_IF_Furniture</designationCategory>
+	<uiIconScale>0.8</uiIconScale>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>

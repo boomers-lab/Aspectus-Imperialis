@@ -13,32 +13,33 @@
   </ThingDef>
   
   <ThingDef ParentName="GW_IF_RoyalBase">
-		<defName>GW_IF_Royal_1x1c</defName>
-		<label>imperial royal table (1x1)</label>
-		<description>table</description>
-		<graphicData>
-			<texPath>Furniture/Furnitures/TableRoyal1x1</texPath>
-			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(1,1)</drawSize>
-			<damageData>
-				<cornerTL>Damage/Corner</cornerTL>
-				<cornerTR>Damage/Corner</cornerTR>
-				<cornerBL>Damage/Corner</cornerBL>
-				<cornerBR>Damage/Corner</cornerBR>
-			</damageData>
-		</graphicData>
-		<designationCategory>GW_IF_Furniture</designationCategory>
-		<uiIconScale>0.8</uiIconScale>
-		<statBases>
-			<MaxHitPoints>75</MaxHitPoints>
-			<WorkToBuild>750</WorkToBuild>
-			<Mass>5</Mass>
-			<Flammability>1.0</Flammability>
-			<Beauty>0.5</Beauty>
-		</statBases>
-		<size>(1,1)</size>
-		<costStuffCount>28</costStuffCount>
-	</ThingDef>
+    <defName>GW_IF_Royal_1x1c</defName>
+    <label>table royal (1x1)</label>
+	<description>table</description>
+    <graphicData>
+      <texPath>Furniture/Furnitures/TableRoyal1x1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2.5,2.5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+	<designationCategory>GW_IF_Furniture</designationCategory>
+    <uiIconScale>0.8</uiIconScale>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>1</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <costStuffCount>50</costStuffCount>
+    <rotatable>false</rotatable>
+  </ThingDef>
 	
 	<ThingDef ParentName="GW_IF_RoyalBase">
 		<defName>GW_IF_Royal_2x1c</defName>
@@ -74,7 +75,7 @@
 	<description>table</description>
     <graphicData>
       <texPath>Furniture/Furnitures/TableRoyal2x2</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(4,4)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
@@ -91,7 +92,6 @@
       <Mass>10</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>1</Beauty>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
     </statBases>
     <size>(2,2)</size>
     <costStuffCount>50</costStuffCount>
@@ -121,7 +121,6 @@
       <Mass>10</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>1</Beauty>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
     </statBases>
     <size>(2,4)</size>
     <costStuffCount>50</costStuffCount>
@@ -133,8 +132,8 @@
 	<description>table</description>
     <graphicData>
       <texPath>Furniture/Furnitures/TableRoyal3x3</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(5, 5)</drawSize>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4, 4)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -150,7 +149,6 @@
       <Mass>10</Mass>
       <Flammability>1.0</Flammability>
       <Beauty>1</Beauty>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
     </statBases>
     <size>(3,3)</size>
     <costStuffCount>50</costStuffCount>
@@ -164,7 +162,7 @@
     <graphicData>
       <texPath>Furniture/Furnitures/ChairRoyal</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(1,1)</drawSize>
+      <drawSize>(3,3)</drawSize>
       <damageData>
         <rectN>(0.25,0.234375,0.5,0.28125)</rectN>
         <rectS>(0.25,0.234375,0.5,0.28125)</rectS>
@@ -175,6 +173,8 @@
         <volume>(0.23, 0.26, 0.23)</volume>
       </shadowData>
     </graphicData>
+	<designationCategory>GW_IF_Furniture</designationCategory>
+	<uiIconScale>0.8</uiIconScale>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
