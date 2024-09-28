@@ -1,0 +1,113 @@
+<Defs>
+
+	<ThingDef ParentName="DoorBase">
+		<defName>GW40k_2x1Gate</defName>
+		<label>heavy Gate 2x1</label>
+		<description>Divides rooms. An intricately-carved door, decorated with gold. This large, heavy door requires adjacent walls to function.</description>
+		<thingClass>Building_MultiTileDoor</thingClass>
+		<statBases>
+			<WorkToBuild>15000</WorkToBuild>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Beauty>30</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Furniture/Gate/2x1/HeavyGate_2x1_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Furniture/Gate/2x1/HeavyGate_2x1_MenuIcon</uiIconPath>
+		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+		<size>(2, 1)</size>
+		<rotatable>true</rotatable>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<costStuffCount>75</costStuffCount>
+		<costList>
+			<Gold>50</Gold>
+		</costList>
+		<building>
+			<blueprintClass>Blueprint_Build</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Furniture/Gate/2x1/HeavyGate_2x1_MenuIcon</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>EdgeDetect</shaderType>
+				<drawSize>(2.6, 3.1)</drawSize>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>Furniture/Gate/2x1/HeavyGate_2x1_Top</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(3.1, 2.3)</drawSize>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>Furniture/Gate/2x1/HeavyGate_2x1_Support</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(3.1, 2.3)</drawSize>
+			</doorSupportGraphic>
+		</building>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<designationHotKey>Misc3</designationHotKey>
+		<placeWorkers>
+			<li>PlaceWorker_MultiCellDoor</li>
+		</placeWorkers>
+	</ThingDef>
+
+	<ThingDef ParentName="DoorBase">
+		<defName>GW40k_3x1Gate</defName>
+		<label>heavy Gate 3x1</label>
+		<description>Divides rooms. An intricately-carved door, decorated with gold. This large, heavy door requires adjacent walls to function.</description>
+		<thingClass>Building_MultiTileDoor</thingClass>
+		<statBases>
+			<WorkToBuild>15000</WorkToBuild>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Beauty>30</Beauty>
+		</statBases>
+		<graphicData>
+			<texPath>Furniture/Gate/3x1/HeavyGate_3x1_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Furniture/Gate/3x1/HeavyGate_3x1_MenuIcon</uiIconPath>
+		<useBlueprintGraphicAsGhost>true</useBlueprintGraphicAsGhost>
+		<size>(3, 1)</size>
+		<rotatable>true</rotatable>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+		<costStuffCount>75</costStuffCount>
+		<costList>
+			<Gold>50</Gold>
+		</costList>
+		<building>
+			<blueprintClass>Blueprint_Build</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Furniture/Gate/3x1/HeavyGate_3x1_MenuIcon</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<shaderType>EdgeDetect</shaderType>
+				<drawSize>(3.6, 3.1)</drawSize>
+			</blueprintGraphicData>
+			<doorTopGraphic>
+				<texPath>Furniture/Gate/3x1/HeavyGate_3x1_Top</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(4.1, 2.3)</drawSize>
+			</doorTopGraphic>
+			<doorSupportGraphic>
+				<texPath>Furniture/Gate/3x1/HeavyGate_3x1_Support</texPath>
+				<graphicClass>Graphic_Multi</graphicClass>
+				<drawSize>(4.1, 2.3)</drawSize>
+			</doorSupportGraphic>
+		</building>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<designationHotKey>Misc3</designationHotKey>
+		<placeWorkers>
+			<li>PlaceWorker_MultiCellDoor</li>
+		</placeWorkers>
+	</ThingDef>
+
+</Defs>

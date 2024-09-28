@@ -1,0 +1,408 @@
+<Defs>
+	
+	<!-- <DesignatorDropdownGroupDef> -->
+		<!-- <defName>GW40k_Statues</defName> -->
+		<!-- <label>grimworld statues</label> -->
+	<!-- </DesignatorDropdownGroupDef> -->
+	
+	<ThingDef ParentName="SculptureBase" Name="GW40k_StatuesBase" Abstract="True">
+		<!-- <designatorDropdown>GW40k_Statues</designatorDropdown> -->
+	</ThingDef>
+	
+	<ThingDef ParentName="GW40k_StatuesBase">
+		<defName>GW40k_Statues_1x1Janitor</defName>
+		<label>janitor guy</label>
+		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Furniture/Statues/1x1 Simple/Statue1x1_JanitorGuy</texPath>
+			<drawSize>(1,1.5)</drawSize>
+			<drawOffset>(0,0,0.35)</drawOffset>
+		</graphicData>
+		<size>(1,1)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<fillPercent>0.25</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>2</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite>
+				<!-- <li></li> -->
+			</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>50</costStuffCount>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW40k_StatuesBase">
+		<defName>GW40k_Statues_1x1Sister</defName>
+		<label>sister of battle</label>
+		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Furniture/Statues/1x1/Statue1x1_SisterSword</texPath>
+			<drawSize>(2,2)</drawSize>
+			<drawOffset>(0,0,0.18)</drawOffset>
+		</graphicData>
+		<size>(1,1)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<fillPercent>0.25</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>2</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite>
+				<!-- <li></li> -->
+			</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>50</costStuffCount>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW40k_StatuesBase">
+		<defName>GW40k_Statues_1x1Flag</defName>
+		<label>flag holding guardsman</label>
+		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Furniture/Statues/1x1/Statue1x1_GuardsmanFlag</texPath>
+			<drawSize>(2,2)</drawSize>
+			<drawOffset>(0,0,0.6)</drawOffset>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<size>(1,1)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<fillPercent>0.25</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>2</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite>
+				<!-- <li></li> -->
+			</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>50</costStuffCount>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW40k_StatuesBase">
+		<defName>GW40k_1x1StatuesHoodGuy</defName>
+		<label>grimworld statue 1x1</label>
+		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Furniture/Statues/1x1/Statue1x1_HoodGuy</texPath>
+			<drawSize>(2,2)</drawSize>
+			<drawOffset>(0,0,0.35)</drawOffset>
+			<drawOffsetSouth>(0.025,0,0.35)</drawOffsetSouth>
+			<drawOffsetNorth>(0.025,0,0.35)</drawOffsetNorth>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<size>(1,1)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<fillPercent>0.25</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>2</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite>
+				<!-- <li></li> -->
+			</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>50</costStuffCount>
+		<comps />
+	</ThingDef>
+	
+	<ThingDef ParentName="GW40k_StatuesBase">
+		<defName>GW40k_1x1StatuesOfficer</defName>
+		<label>grimworld statue 1x1</label>
+		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Furniture/Statues/1x1/Statue1x1_Officer</texPath>
+			<drawSize>(2,2)</drawSize>
+			<drawOffset>(0,0,0.35)</drawOffset>
+			<drawOffsetSouth>(0.025,0,0.35)</drawOffsetSouth>
+			<drawOffsetNorth>(0.025,0,0.35)</drawOffsetNorth>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<size>(1,1)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<fillPercent>0.25</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>2</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite>
+				<!-- <li></li> -->
+			</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>50</costStuffCount>
+		<comps />
+	</ThingDef>
+	
+	<ThingDef ParentName="GW40k_StatuesBase">
+		<defName>GW40k_1x1StatuesSisterMace</defName>
+		<label>grimworld statue 1x1</label>
+		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Furniture/Statues/1x1/Statue1x1_SisterMace</texPath>
+			<drawSize>(2,2)</drawSize>
+			<drawOffset>(0,0,0.35)</drawOffset>
+			<drawOffsetSouth>(0.025,0,0.35)</drawOffsetSouth>
+			<drawOffsetNorth>(0.025,0,0.35)</drawOffsetNorth>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<size>(1,1)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<fillPercent>0.25</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>2</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite>
+				<!-- <li></li> -->
+			</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>50</costStuffCount>
+		<comps />
+	</ThingDef>
+	
+	<ThingDef ParentName="GW40k_StatuesBase">
+		<defName>GW40k_2x2Statues</defName>
+		<label>grimworld statue 2x2</label>
+		<description>A medium-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Furniture/Statues/2x2/Statue2x2_MarineShield</texPath>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<size>(2,2)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<fillPercent>0.25</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>2</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite>
+				<!-- <li></li> -->
+			</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>50</costStuffCount>
+		<comps />
+	</ThingDef>
+	
+	<ThingDef ParentName="GW40k_StatuesBase">
+		<defName>GW40k_3x3Statues</defName>
+		<label>grimworld statue 3x3</label>
+		<description>A large-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Furniture/Statues/3x3/Statue3x3_MarineSword</texPath>
+			<drawSize>(4,4)</drawSize>
+			<drawOffset>(0,0,0.5)</drawOffset>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<size>(3,3)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<fillPercent>0.55</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>20</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite>
+				<!-- <li></li> -->
+			</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>150</costStuffCount>
+		<comps />
+	</ThingDef>
+	
+	<ThingDef ParentName="GW40k_StatuesBase">
+		<defName>GW40k_4x4StatuesGuil</defName>
+		<label>grimworld statue 4x4</label>
+		<description>A grand-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Furniture/Statues/Grand/StatueGrand_Guil</texPath>
+			<drawSize>(5,5)</drawSize>
+			<drawOffset>(0,0,0.25)</drawOffset>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<size>(4,4)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<fillPercent>0.55</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>20</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite>
+				<!-- <li></li> -->
+			</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>150</costStuffCount>
+		<comps />
+	</ThingDef>
+	
+	<ThingDef ParentName="GW40k_StatuesBase">
+		<defName>GW40k_4x4StatuesLion</defName>
+		<label>grimworld statue 4x4</label>
+		<description>A grand-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Furniture/Statues/Grand/StatueGrand_Lion</texPath>
+			<drawSize>(5,5)</drawSize>
+			<drawOffset>(0,0,0.25)</drawOffset>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<size>(4,4)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<fillPercent>0.55</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>20</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite>
+				<!-- <li></li> -->
+			</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>150</costStuffCount>
+		<comps />
+	</ThingDef>
+	
+	<ThingDef ParentName="GW40k_StatuesBase">
+		<defName>GW40k_4x4StatuesVald</defName>
+		<label>grimworld statue 4x4</label>
+		<description>A grand-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Furniture/Statues/Grand/StatueGrand_Vald</texPath>
+			<drawSize>(5,5)</drawSize>
+			<drawOffset>(0,0,0.25)</drawOffset>
+		</graphicData>
+		<rotatable>true</rotatable>
+		<size>(4,4)</size>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<fillPercent>0.55</fillPercent>
+		<castEdgeShadows>false</castEdgeShadows>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>20</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<recipeMaker>
+			<researchPrerequisite>
+				<!-- <li></li> -->
+			</researchPrerequisite>
+		</recipeMaker>
+		<costStuffCount>150</costStuffCount>
+		<comps />
+	</ThingDef>
+
+</Defs>
