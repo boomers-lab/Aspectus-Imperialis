@@ -20,14 +20,14 @@
 			<drawOffset>(0,0,0.35)</drawOffset>
 		</graphicData>
 		<size>(1,1)</size>
-		<designationCategory>GW_IF_Furniture</designationCategory>
+		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.25</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>50</Beauty>
+			<Beauty>10</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -54,14 +54,14 @@
 			<drawOffset>(0,0,0.18)</drawOffset>
 		</graphicData>
 		<size>(1,1)</size>
-		<designationCategory>GW_IF_Furniture</designationCategory>
+		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.25</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>50</Beauty>
+			<Beauty>10</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -89,14 +89,14 @@
 		</graphicData>
 		<rotatable>true</rotatable>
 		<size>(1,1)</size>
-		<designationCategory>GW_IF_Furniture</designationCategory>
+		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.25</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>50</Beauty>
+			<Beauty>10</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -126,14 +126,14 @@
 		</graphicData>
 		<rotatable>true</rotatable>
 		<size>(1,1)</size>
-		<designationCategory>GW_IF_Furniture</designationCategory>
+		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.25</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>50</Beauty>
+			<Beauty>10</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -164,14 +164,14 @@
 		</graphicData>
 		<rotatable>true</rotatable>
 		<size>(1,1)</size>
-		<designationCategory>GW_IF_Furniture</designationCategory>
+		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.25</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>50</Beauty>
+			<Beauty>10</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -202,14 +202,14 @@
 		</graphicData>
 		<rotatable>true</rotatable>
 		<size>(1,1)</size>
-		<designationCategory>GW_IF_Furniture</designationCategory>
+		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.25</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>50</Beauty>
+			<Beauty>10</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -237,14 +237,14 @@
 		</graphicData>
 		<rotatable>true</rotatable>
 		<size>(2,2)</size>
-		<designationCategory>GW_IF_Furniture</designationCategory>
+		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.25</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>50</Beauty>
+			<Beauty>20</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -257,7 +257,7 @@
 				<!-- <li></li> -->
 			</researchPrerequisite>
 		</recipeMaker>
-		<costStuffCount>50</costStuffCount>
+		<costStuffCount>100</costStuffCount>
 		<comps />
 	</ThingDef>
 	
@@ -273,7 +273,7 @@
 		</graphicData>
 		<rotatable>true</rotatable>
 		<size>(3,3)</size>
-		<designationCategory>GW_IF_Furniture</designationCategory>
+		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.55</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
@@ -309,16 +309,19 @@
 		</graphicData>
 		<rotatable>true</rotatable>
 		<size>(4,4)</size>
-		<designationCategory>GW_IF_Furniture</designationCategory>
+		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.55</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>20</Mass>
-			<Beauty>50</Beauty>
+			<Beauty>150</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
+		<costList>
+            <Gold>100</Gold>
+        </costList>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Woody</li>
@@ -329,7 +332,7 @@
 				<!-- <li></li> -->
 			</researchPrerequisite>
 		</recipeMaker>
-		<costStuffCount>150</costStuffCount>
+		<costStuffCount>250</costStuffCount>
 		<comps />
 	</ThingDef>
 	
@@ -345,16 +348,19 @@
 		</graphicData>
 		<rotatable>true</rotatable>
 		<size>(4,4)</size>
-		<designationCategory>GW_IF_Furniture</designationCategory>
+		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.55</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>20</Mass>
-			<Beauty>50</Beauty>
+			<Beauty>150</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
+		<costList>
+            <Gold>100</Gold>
+        </costList>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Woody</li>
@@ -365,7 +371,7 @@
 				<!-- <li></li> -->
 			</researchPrerequisite>
 		</recipeMaker>
-		<costStuffCount>150</costStuffCount>
+		<costStuffCount>250</costStuffCount>
 		<comps />
 	</ThingDef>
 	
@@ -381,16 +387,19 @@
 		</graphicData>
 		<rotatable>true</rotatable>
 		<size>(4,4)</size>
-		<designationCategory>GW_IF_Furniture</designationCategory>
+		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.55</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>20</Mass>
-			<Beauty>50</Beauty>
+			<Beauty>150</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
+		<costList>
+            <Gold>100</Gold>
+        </costList>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Woody</li>
@@ -401,7 +410,7 @@
 				<!-- <li></li> -->
 			</researchPrerequisite>
 		</recipeMaker>
-		<costStuffCount>150</costStuffCount>
+		<costStuffCount>250</costStuffCount>
 		<comps />
 	</ThingDef>
 
