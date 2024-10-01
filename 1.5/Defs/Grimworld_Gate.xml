@@ -7,7 +7,7 @@
 		<thingClass>Building_MultiTileDoor</thingClass>
 		<statBases>
 			<WorkToBuild>15000</WorkToBuild>
-			<MaxHitPoints>250</MaxHitPoints>
+			<MaxHitPoints>800</MaxHitPoints>
 			<Beauty>30</Beauty>
 		</statBases>
 		<graphicData>
@@ -24,9 +24,13 @@
 		<rotatable>true</rotatable>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<costStuffCount>75</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
 		<costList>
 			<Gold>50</Gold>
 		</costList>
+		<designationCategory>GW_IF_Furniture</designationCategory>
 		<building>
 			<blueprintClass>Blueprint_Build</blueprintClass>
 			<blueprintGraphicData>
@@ -47,7 +51,7 @@
 			</doorSupportGraphic>
 		</building>
 		<researchPrerequisites>
-			<li>ComplexFurniture</li>
+			<li>GW_BlastDoors</li>
 		</researchPrerequisites>
 		<designationHotKey>Misc3</designationHotKey>
 		<placeWorkers>
@@ -62,7 +66,7 @@
 		<thingClass>Building_MultiTileDoor</thingClass>
 		<statBases>
 			<WorkToBuild>15000</WorkToBuild>
-			<MaxHitPoints>250</MaxHitPoints>
+			<MaxHitPoints>1250</MaxHitPoints>
 			<Beauty>30</Beauty>
 		</statBases>
 		<graphicData>
@@ -82,6 +86,7 @@
 		<costList>
 			<Gold>50</Gold>
 		</costList>
+		<designationCategory>GW_IF_Furniture</designationCategory>
 		<building>
 			<blueprintClass>Blueprint_Build</blueprintClass>
 			<blueprintGraphicData>
@@ -102,7 +107,7 @@
 			</doorSupportGraphic>
 		</building>
 		<researchPrerequisites>
-			<li>ComplexFurniture</li>
+			<li>GW_BlastDoors</li>
 		</researchPrerequisites>
 		<designationHotKey>Misc3</designationHotKey>
 		<placeWorkers>
