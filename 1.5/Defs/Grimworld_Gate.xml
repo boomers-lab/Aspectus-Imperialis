@@ -24,7 +24,7 @@
 		<rotatable>true</rotatable>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<costStuffCount>75</costStuffCount>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>Metallic</li>
 		</stuffCategories>
 		<costList>
@@ -83,6 +83,9 @@
 		<rotatable>true</rotatable>
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 		<costStuffCount>75</costStuffCount>
+		<stuffCategories Inherit="False">
+			<li>Metallic</li>
+		</stuffCategories>
 		<costList>
 			<Gold>50</Gold>
 		</costList>
