@@ -37,17 +37,17 @@
 				<texPath>Furniture/Gate/2x1/HeavyGate_2x1_MenuIcon</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
 				<shaderType>EdgeDetect</shaderType>
-				<drawSize>(2.6, 3.1)</drawSize>
+				<drawSize>(2.8, 2.8)</drawSize>
 			</blueprintGraphicData>
 			<doorTopGraphic>
 				<texPath>Furniture/Gate/2x1/HeavyGate_2x1_Top</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
-				<drawSize>(3.1, 2.3)</drawSize>
+				<drawSize>(3, 2)</drawSize>
 			</doorTopGraphic>
 			<doorSupportGraphic>
 				<texPath>Furniture/Gate/2x1/HeavyGate_2x1_Support</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
-				<drawSize>(3.1, 2.3)</drawSize>
+				<drawSize>(3, 2)</drawSize>
 			</doorSupportGraphic>
 		</building>
 		<researchPrerequisites>
@@ -101,12 +101,12 @@
 			<doorTopGraphic>
 				<texPath>Furniture/Gate/3x1/HeavyGate_3x1_Top</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
-				<drawSize>(4.1, 2.3)</drawSize>
+				<drawSize>(4, 2)</drawSize>
 			</doorTopGraphic>
 			<doorSupportGraphic>
 				<texPath>Furniture/Gate/3x1/HeavyGate_3x1_Support</texPath>
 				<graphicClass>Graphic_Multi</graphicClass>
-				<drawSize>(4.1, 2.3)</drawSize>
+				<drawSize>(4, 2)</drawSize>
 			</doorSupportGraphic>
 		</building>
 		<researchPrerequisites>
