@@ -84,7 +84,7 @@
 		<description>Medicae bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<graphicData>
-			<texPath>Furniture/Bed/Medicae/medicaebed</texPath>
+			<texPath>Furniture/Bed/Medicae/Bed_Medical</texPath>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
