@@ -9,6 +9,9 @@
         <rect>(0.15,0.15,0.2,0.2)</rect>
       </damageData>
     </graphicData>
+	<costList>
+		<Gold>50</Gold>
+	</costList>
     <designationCategory>GW_IF_Furniture</designationCategory>
   </ThingDef>
   

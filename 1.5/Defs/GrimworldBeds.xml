@@ -1,32 +1,122 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-    <ThingDef ParentName="Bed">
-        <defName>GW_IF_Hivebed</defName>
-        <label>hivebed</label>
-        <description>Hivebed</description>
-        <designationCategory>GW_IF_Furniture</designationCategory>
-        <graphicData>
-            <texPath>Furniture/Bed/Hivebed/Hivebed</texPath>
-        </graphicData>
-    </ThingDef>
+	<ThingDef ParentName="Bed">
+		<defName>GW_IF_CommonSingle</defName>
+		<label>common single bed</label>
+		<description>common bed</description>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<graphicData>
+			<texPath>Furniture/Bed/CommonBed/Bed_CommonSingle</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="DoubleBed">
+		<defName>GW_IF_CommonDouble</defName>
+		<label>common double bed</label>
+		<description>common double bed</description>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<graphicData>
+			<texPath>Furniture/Bed/CommonBed/Bed_CommonDouble</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="Bed">
+		<defName>GW_IF_PrisonerSingle</defName>
+		<label>common single bed</label>
+		<description>common bed</description>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<graphicData>
+			<texPath>Furniture/Bed/PrisonerBed/Bed_Prison</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="Bed">
+		<defName>GW_IF_RoyalSingle</defName>
+		<label>royal single bed</label>
+		<description>royal bed</description>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<graphicData>
+			<texPath>Furniture/Bed/RoyalBed/Bed_RoyalSingle</texPath>
+		</graphicData>
+	</ThingDef>
+	
+	<ThingDef ParentName="Bed">
+		<defName>GW_IF_RoyalSingle</defName>
+		<label>royal single bed</label>
+		<description>royal bed</description>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<graphicData>
+			<texPath>Furniture/Bed/RoyalBed/Bed_RoyalSingle</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>50000</WorkToBuild>
+			<Mass>60</Mass>
+			<Beauty>75</Beauty>
+			<BedRestEffectiveness>1.05</BedRestEffectiveness>
+			<Comfort>0.90</Comfort>
+		</statBases>
+		<costList>
+			<Gold>50</Gold>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	
+	<ThingDef ParentName="DoubleBed">
+		<defName>GW_IF_RoyalDouble</defName>
+		<label>royal double bed</label>
+		<description>royal bed</description>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<graphicData>
+			<texPath>Furniture/Bed/RoyalBed/Bed_RoyalDouble</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>50000</WorkToBuild>
+			<Mass>60</Mass>
+			<Beauty>75</Beauty>
+			<BedRestEffectiveness>1.05</BedRestEffectiveness>
+			<Comfort>0.90</Comfort>
+		</statBases>
+		<costList>
+			<Gold>50</Gold>
+		</costList>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+	</ThingDef>
 
-    <ThingDef ParentName="Bed">
-        <defName>GW_IF_MedicaeBed</defName>
-        <label>medicae bed</label>
-        <description>Medicae bed</description>
-        <designationCategory>GW_IF_Furniture</designationCategory>
-        <graphicData>
-            <texPath>Furniture/Bed/Medicae/medicaebed</texPath>
-        </graphicData>
-    </ThingDef>
+	<ThingDef ParentName="Bed">
+		<defName>GW_IF_MedicaeBed</defName>
+		<label>medicae bed</label>
+		<description>Medicae bed</description>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<graphicData>
+			<texPath>Furniture/Bed/Medicae/medicaebed</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>2800</WorkToBuild>
+			<Mass>35</Mass>
+			<Flammability>1.0</Flammability>
+			<BedRestEffectiveness>1</BedRestEffectiveness>
+			<Comfort>0.80</Comfort>
+			<ImmunityGainSpeedFactor>1.221</ImmunityGainSpeedFactor>
+			<MedicalTendQualityOffset>0.20</MedicalTendQualityOffset>
+			<SurgerySuccessChanceFactor>1.21</SurgerySuccessChanceFactor>
+			<BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">5.5</BirthRitualQualityOffset>
+		</statBases>
+	</ThingDef>
 
-    <ThingDef ParentName="Bed">
-        <defName>GW_IF_UpperHivebed</defName>
-        <label>upper hivebed</label>
-        <description>Upper hivebed</description>
-        <designationCategory>GW_IF_Furniture</designationCategory>
-        <graphicData>
-            <texPath>Furniture/Bed/UpperHivebed/Upperhivebed</texPath>
-        </graphicData>
-    </ThingDef>
+	<!-- <ThingDef ParentName="Bed"> -->
+	<!-- <defName>GW_IF_UpperHivebed</defName> -->
+	<!-- <label>upper hivebed</label> -->
+	<!-- <description>Upper hivebed</description> -->
+	<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
+	<!-- <graphicData> -->
+	<!-- <texPath>Furniture/Bed/UpperHivebed/Upperhivebed</texPath> -->
+	<!-- </graphicData> -->
+	<!-- </ThingDef> -->
 </Defs>
