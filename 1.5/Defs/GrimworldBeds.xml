@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	
 	<ThingDef ParentName="Bed">
 		<defName>GW_IF_CommonSingle</defName>
 		<label>common single bed</label>
@@ -37,6 +38,7 @@
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<graphicData>
 			<texPath>Furniture/Bed/RoyalBed/Bed_RoyalSingle</texPath>
+			<drawSize>(4.05,4.05)</drawSize>	
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -61,6 +63,7 @@
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<graphicData>
 			<texPath>Furniture/Bed/RoyalBed/Bed_RoyalDouble</texPath>
+			<drawSize>(4.05,4.05)</drawSize>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
