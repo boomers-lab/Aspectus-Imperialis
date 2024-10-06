@@ -38,16 +38,6 @@
 		<graphicData>
 			<texPath>Furniture/Bed/RoyalBed/Bed_RoyalSingle</texPath>
 		</graphicData>
-	</ThingDef>
-	
-	<ThingDef ParentName="Bed">
-		<defName>GW_IF_RoyalSingle</defName>
-		<label>royal single bed</label>
-		<description>royal bed</description>
-		<designationCategory>GW_IF_Furniture</designationCategory>
-		<graphicData>
-			<texPath>Furniture/Bed/RoyalBed/Bed_RoyalSingle</texPath>
-		</graphicData>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<WorkToBuild>50000</WorkToBuild>
