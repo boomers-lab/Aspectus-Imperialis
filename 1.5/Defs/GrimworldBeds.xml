@@ -6,6 +6,7 @@
 		<label>common single bed</label>
 		<description>common bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
 			<texPath>Furniture/Bed/CommonBed/Bed_CommonSingle</texPath>
 		</graphicData>
@@ -16,6 +17,7 @@
 		<label>common double bed</label>
 		<description>common double bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
 			<texPath>Furniture/Bed/CommonBed/Bed_CommonDouble</texPath>
 		</graphicData>
@@ -26,6 +28,7 @@
 		<label>common single bed</label>
 		<description>common bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
 			<texPath>Furniture/Bed/PrisonerBed/Bed_Prison</texPath>
 		</graphicData>
@@ -36,9 +39,11 @@
 		<label>royal single bed</label>
 		<description>royal bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
 			<texPath>Furniture/Bed/RoyalBed/Bed_RoyalSingle</texPath>
 			<drawSize>(4.05,4.05)</drawSize>	
+			<drawRotated>false</drawRotated>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
@@ -61,6 +66,7 @@
 		<label>royal double bed</label>
 		<description>royal bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
 			<texPath>Furniture/Bed/RoyalBed/Bed_RoyalDouble</texPath>
 			<drawSize>(4.05,4.05)</drawSize>
@@ -86,6 +92,7 @@
 		<label>medicae bed</label>
 		<description>Medicae bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
 			<texPath>Furniture/Bed/Medicae/Bed_Medical</texPath>
 		</graphicData>
