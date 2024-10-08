@@ -29,16 +29,16 @@
                 <glowRadius>5</glowRadius>
                 <glowColor>(252,187,113,0)</glowColor>
             </li>
-            <li Class="CompProperties_Refuelable">
-                <fuelConsumptionRate>5.0</fuelConsumptionRate>
-                <fuelCapacity>25.0</fuelCapacity>
-                <fuelFilter>
-                    <thingDefs>
-                        <li>WoodLog</li>
-                    </thingDefs>
-                </fuelFilter>
-                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-            </li>
+            <!-- <li Class="CompProperties_Refuelable"> -->
+                <!-- <fuelConsumptionRate>5.0</fuelConsumptionRate> -->
+                <!-- <fuelCapacity>25.0</fuelCapacity> -->
+                <!-- <fuelFilter> -->
+                    <!-- <thingDefs> -->
+                        <!-- <li>WoodLog</li> -->
+                    <!-- </thingDefs> -->
+                <!-- </fuelFilter> -->
+                <!-- <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle> -->
+            <!-- </li> -->
         </comps>
     </ThingDef>
 
@@ -78,16 +78,16 @@
                 <glowRadius>7</glowRadius>
                 <glowColor>(252,187,113,0)</glowColor>
             </li>
-            <li Class="CompProperties_Refuelable">
-                <fuelConsumptionRate>7.0</fuelConsumptionRate>
-                <fuelCapacity>30.0</fuelCapacity>
-                <fuelFilter>
-                    <thingDefs>
-                        <li>WoodLog</li>
-                    </thingDefs>
-                </fuelFilter>
-                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-            </li>
+            <!-- <li Class="CompProperties_Refuelable"> -->
+                <!-- <fuelConsumptionRate>7.0</fuelConsumptionRate> -->
+                <!-- <fuelCapacity>30.0</fuelCapacity> -->
+                <!-- <fuelFilter> -->
+                    <!-- <thingDefs> -->
+                        <!-- <li>WoodLog</li> -->
+                    <!-- </thingDefs> -->
+                <!-- </fuelFilter> -->
+                <!-- <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle> -->
+            <!-- </li> -->
         </comps>
     </ThingDef>
 
@@ -120,16 +120,16 @@
                 <glowRadius>7</glowRadius>
                 <glowColor>(252,187,113,0)</glowColor>
             </li>
-            <li Class="CompProperties_Refuelable">
-                <fuelConsumptionRate>7.0</fuelConsumptionRate>
-                <fuelCapacity>30.0</fuelCapacity>
-                <fuelFilter>
-                    <thingDefs>
-                        <li>WoodLog</li>
-                    </thingDefs>
-                </fuelFilter>
-                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-            </li>
+            <!-- <li Class="CompProperties_Refuelable"> -->
+                <!-- <fuelConsumptionRate>7.0</fuelConsumptionRate> -->
+                <!-- <fuelCapacity>30.0</fuelCapacity> -->
+                <!-- <fuelFilter> -->
+                    <!-- <thingDefs> -->
+                        <!-- <li>WoodLog</li> -->
+                    <!-- </thingDefs> -->
+                <!-- </fuelFilter> -->
+                <!-- <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle> -->
+            <!-- </li> -->
         </comps>
     </ThingDef>
 </Defs>
