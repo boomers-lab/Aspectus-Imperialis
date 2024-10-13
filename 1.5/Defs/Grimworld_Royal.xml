@@ -17,12 +17,12 @@
   
   <ThingDef ParentName="GW_IF_RoyalBase">
     <defName>GW_IF_Royal_1x1c</defName>
-    <label>table royal (1x1)</label>
+    <label>imperial table royal (1x1)</label>
 	<description>table</description>
     <graphicData>
       <texPath>Furniture/Furnitures/TableRoyal1x1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2.5,2.5)</drawSize>
+      <drawSize>(2.65,2.65)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -51,7 +51,7 @@
 		<graphicData>
 			<texPath>Furniture/Furnitures/TableRoyal1x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3,4)</drawSize>
+			<drawSize>(3.15,4.15)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -74,12 +74,12 @@
 	
 	<ThingDef ParentName="GW_IF_RoyalBase">
     <defName>GW_IF_Royal_2x2c</defName>
-    <label>table royal (2x2)</label>
+    <label>imperial royal table (2x2)</label>
 	<description>table</description>
     <graphicData>
       <texPath>Furniture/Furnitures/TableRoyal2x2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4,4)</drawSize>
+      <drawSize>(4.15,4.15)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -103,12 +103,12 @@
 	
 	<ThingDef ParentName="GW_IF_RoyalBase">
     <defName>GW_IF_Royal_2x4c</defName>
-    <label>table royal (2x4)</label>
+    <label>imperial royal table (2x4)</label>
 	<description>table</description>
     <graphicData>
       <texPath>Furniture/Furnitures/TableRoyal2x4</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4,6)</drawSize>
+      <drawSize>(4.15,6.15)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -131,12 +131,12 @@
 	
 	<ThingDef ParentName="GW_IF_RoyalBase">
     <defName>GW_IF_Royal_3x3c</defName>
-    <label>table (3x3)</label>
+    <label>imperial royal table (3x3)</label>
 	<description>table</description>
     <graphicData>
       <texPath>Furniture/Furnitures/TableRoyal3x3</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4, 4)</drawSize>
+      <drawSize>(4.15, 4.15)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -165,7 +165,7 @@
     <graphicData>
       <texPath>Furniture/Furnitures/ChairRoyal</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(3.15,3.15)</drawSize>
       <damageData>
         <rectN>(0.25,0.234375,0.5,0.28125)</rectN>
         <rectS>(0.25,0.234375,0.5,0.28125)</rectS>

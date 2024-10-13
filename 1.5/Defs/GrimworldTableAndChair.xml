@@ -2,12 +2,12 @@
 
 	<ThingDef ParentName="TableGatherSpotBase">
 		<defName>GW_IF_1x1c</defName>
-		<label>imperial table (1x1)</label>
+		<label>table (1x1)</label>
 		<description>table</description>
 		<graphicData>
 			<texPath>Furniture/Furnitures/TableCommon1x1</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(2.5,2.5)</drawSize>
+			<drawSize>(2.65,2.65)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -30,12 +30,12 @@
 	
 	<ThingDef ParentName="TableGatherSpotBase">
 		<defName>GW_IF_2x1c</defName>
-		<label>imperial table (2x1)</label>
+		<label>table (2x1)</label>
 		<description>table</description>
 		<graphicData>
 			<texPath>Furniture/Furnitures/TableCommon1x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
-			<drawSize>(3,4)</drawSize>
+			<drawSize>(3.15,4.15)</drawSize>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -63,7 +63,7 @@
     <graphicData>
       <texPath>Furniture/Furnitures/TableCommon2x2</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4,4)</drawSize>
+      <drawSize>(4.15,4.15)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -93,7 +93,7 @@
     <graphicData>
       <texPath>Furniture/Furnitures/TableCommon2x4</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4,6)</drawSize>
+      <drawSize>(4.15,6.15)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -122,7 +122,7 @@
     <graphicData>
       <texPath>Furniture/Furnitures/TableCommon3x3</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4, 4)</drawSize>
+      <drawSize>(4.15, 4.15)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
