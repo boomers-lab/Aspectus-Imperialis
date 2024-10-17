@@ -1,48 +1,49 @@
 <Defs>
 
 	<ThingDef Name="GW_IF_RoyalBase" ParentName="TableGatherSpotBase" Abstract="True">
-    <description>An impressive looking.</description>
-    <graphicData>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <shaderType>CutoutComplex</shaderType>
-      <damageData>
-        <rect>(0.15,0.15,0.2,0.2)</rect>
-      </damageData>
-    </graphicData>
-	<costList>
-		<Gold>50</Gold>
-	</costList>
-    <designationCategory>GW_IF_Furniture</designationCategory>
-  </ThingDef>
+		<description>An impressive looking.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<damageData>
+				<rect>(0.15,0.15,0.2,0.2)</rect>
+			</damageData>
+		</graphicData>
+		<costList>
+			<Gold>50</Gold>
+		</costList>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+	</ThingDef>
   
-  <ThingDef ParentName="GW_IF_RoyalBase">
-    <defName>GW_IF_Royal_1x1c</defName>
-    <label>imperial table royal (1x1)</label>
-	<description>table</description>
-    <graphicData>
-      <texPath>Furniture/Furnitures/TableRoyal1x1</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2.65,2.65)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-	<designationCategory>GW_IF_Furniture</designationCategory>
-    <uiIconScale>0.8</uiIconScale>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>1500</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(1,1)</size>
-    <costStuffCount>50</costStuffCount>
-    <rotatable>false</rotatable>
-  </ThingDef>
+	<ThingDef ParentName="GW_IF_RoyalBase">
+		<defName>GW_IF_Royal_1x1c</defName>
+		<label>imperial table royal (1x1)</label>
+		<description>table</description>
+		<graphicData>
+			<texPath>Furniture/Furnitures/TableRoyal1x1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2.9,2.9)</drawSize>
+			<drawOffset>(0,0,0.1)</drawOffset>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<size>(1,1)</size>
+		<costStuffCount>50</costStuffCount>
+		<rotatable>false</rotatable>
+	</ThingDef>
 	
 	<ThingDef ParentName="GW_IF_RoyalBase">
 		<defName>GW_IF_Royal_2x1c</defName>
@@ -73,136 +74,137 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="GW_IF_RoyalBase">
-    <defName>GW_IF_Royal_2x2c</defName>
-    <label>imperial royal table (2x2)</label>
-	<description>table</description>
-    <graphicData>
-      <texPath>Furniture/Furnitures/TableRoyal2x2</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4.15,4.15)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-	<designationCategory>GW_IF_Furniture</designationCategory>
-    <uiIconScale>0.8</uiIconScale>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>1500</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(2,2)</size>
-    <costStuffCount>50</costStuffCount>
-    <rotatable>false</rotatable>
-  </ThingDef>
+		<defName>GW_IF_Royal_2x2c</defName>
+		<label>imperial royal table (2x2)</label>
+		<description>table</description>
+		<graphicData>
+			<texPath>Furniture/Furnitures/TableRoyal2x2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.15,4.15)</drawSize>
+			<drawOffset>(0,0,0.1)</drawOffset>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<size>(2,2)</size>
+		<costStuffCount>50</costStuffCount>
+		<rotatable>false</rotatable>
+	</ThingDef>
 	
 	<ThingDef ParentName="GW_IF_RoyalBase">
-    <defName>GW_IF_Royal_2x4c</defName>
-    <label>imperial royal table (2x4)</label>
-	<description>table</description>
-    <graphicData>
-      <texPath>Furniture/Furnitures/TableRoyal2x4</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4.15,6.15)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-	<designationCategory>GW_IF_Furniture</designationCategory>
-    <uiIconScale>0.8</uiIconScale>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>1500</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(2,4)</size>
-    <costStuffCount>50</costStuffCount>
-  </ThingDef>
+		<defName>GW_IF_Royal_2x4c</defName>
+		<label>imperial royal table (2x4)</label>
+		<description>table</description>
+		<graphicData>
+			<texPath>Furniture/Furnitures/TableRoyal2x4</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.15,6.15)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<size>(2,4)</size>
+		<costStuffCount>50</costStuffCount>
+	</ThingDef>
 	
 	<ThingDef ParentName="GW_IF_RoyalBase">
-    <defName>GW_IF_Royal_3x3c</defName>
-    <label>imperial royal table (3x3)</label>
-	<description>table</description>
-    <graphicData>
-      <texPath>Furniture/Furnitures/TableRoyal3x3</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4.15, 4.15)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-	<designationCategory>GW_IF_Furniture</designationCategory>
-    <uiIconScale>0.8</uiIconScale>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>1500</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>1</Beauty>
-    </statBases>
-    <size>(3,3)</size>
-    <costStuffCount>50</costStuffCount>
-	<rotatable>false</rotatable>
-  </ThingDef>
+		<defName>GW_IF_Royal_3x3c</defName>
+		<label>imperial royal table (3x3)</label>
+		<description>table</description>
+		<graphicData>
+			<texPath>Furniture/Furnitures/TableRoyal3x3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.15, 4.15)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+		</statBases>
+		<size>(3,3)</size>
+		<costStuffCount>50</costStuffCount>
+		<rotatable>false</rotatable>
+	</ThingDef>
   
-  <ThingDef ParentName="ArtableFurnitureBase">
-    <defName>GW_IF_Royal_Chair</defName>
-    <label>imperial royal chair</label>
-    <description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</description>
-    <graphicData>
-      <texPath>Furniture/Furnitures/ChairRoyal</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(3.15,3.15)</drawSize>
-      <damageData>
-        <rectN>(0.25,0.234375,0.5,0.28125)</rectN>
-        <rectS>(0.25,0.234375,0.5,0.28125)</rectS>
-        <rectE>(0.28125,0.25,0.453125,0.25)</rectE>
-        <rectW>(0.28125,0.25,0.453125,0.25)</rectW>
-      </damageData>
-      <shadowData>
-        <volume>(0.23, 0.26, 0.23)</volume>
-      </shadowData>
-    </graphicData>
-	<designationCategory>GW_IF_Furniture</designationCategory>
-	<uiIconScale>0.8</uiIconScale>
-    <altitudeLayer>Building</altitudeLayer>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>8000</WorkToBuild>
-      <Mass>5</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>8</Beauty>
-      <Comfort>0.70</Comfort>
-    </statBases>
-    <socialPropernessMatters>true</socialPropernessMatters>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-    </stuffCategories>
-    <costStuffCount>45</costStuffCount>
-    <pathCost>30</pathCost>
-    <designationHotKey>Misc7</designationHotKey>
-    <fillPercent>0.35</fillPercent>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <uiOrder>2410</uiOrder>
-    <building>
-      <isSittable>true</isSittable>
-      <paintable>true</paintable>
-    </building>
-    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-  </ThingDef>
+	<ThingDef ParentName="ArtableFurnitureBase">
+		<defName>GW_IF_Royal_Chair</defName>
+		<label>imperial royal chair</label>
+		<description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</description>
+		<graphicData>
+			<texPath>Furniture/Furnitures/ChairRoyal</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.15,3.15)</drawSize>
+			<damageData>
+				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.23, 0.26, 0.23)</volume>
+			</shadowData>
+		</graphicData>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<uiIconScale>0.8</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>8000</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+			<Comfort>0.70</Comfort>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc7</designationHotKey>
+		<fillPercent>0.35</fillPercent>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<uiOrder>2410</uiOrder>
+		<building>
+			<isSittable>true</isSittable>
+			<paintable>true</paintable>
+		</building>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
 
 </Defs>

@@ -36,6 +36,7 @@
 			<texPath>Furniture/Furnitures/TableCommon1x2</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3.15,4.15)</drawSize>
+			<drawOffset>(0,0,0.1)</drawOffset>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
 				<cornerTR>Damage/Corner</cornerTR>
@@ -57,141 +58,145 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="TableGatherSpotBase">
-    <defName>GW_IF_2x2c</defName>
-    <label>table (2x2)</label>
-	<description>table</description>
-    <graphicData>
-      <texPath>Furniture/Furnitures/TableCommon2x2</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4.15,4.15)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-	<designationCategory>GW_IF_Furniture</designationCategory>
-    <uiIconScale>0.8</uiIconScale>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>1500</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>1</Beauty>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
-    </statBases>
-    <size>(2,2)</size>
-    <costStuffCount>50</costStuffCount>
-    <rotatable>false</rotatable>
-  </ThingDef>
+		<defName>GW_IF_2x2c</defName>
+		<label>table (2x2)</label>
+		<description>table</description>
+		<graphicData>
+			<texPath>Furniture/Furnitures/TableCommon2x2</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.15,4.15)</drawSize>
+			<drawOffset>(0,0,0.1)</drawOffset>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<size>(2,2)</size>
+		<costStuffCount>50</costStuffCount>
+		<rotatable>false</rotatable>
+	</ThingDef>
 	
 	<ThingDef ParentName="TableGatherSpotBase">
-    <defName>GW_IF_2x4c</defName>
-    <label>table (2x4)</label>
-	<description>table</description>
-    <graphicData>
-      <texPath>Furniture/Furnitures/TableCommon2x4</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4.15,6.15)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-	<designationCategory>GW_IF_Furniture</designationCategory>
-    <uiIconScale>0.8</uiIconScale>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>1500</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>1</Beauty>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
-    </statBases>
-    <size>(2,4)</size>
-    <costStuffCount>50</costStuffCount>
-  </ThingDef>
+		<defName>GW_IF_2x4c</defName>
+		<label>table (2x4)</label>
+		<description>table</description>
+		<graphicData>
+			<texPath>Furniture/Furnitures/TableCommon2x4</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.15,6.15)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<size>(2,4)</size>
+		<costStuffCount>50</costStuffCount>
+	</ThingDef>
 	
 	<ThingDef ParentName="TableGatherSpotBase">
-    <defName>GW_IF_3x3c</defName>
-    <label>table (3x3)</label>
-	<description>table</description>
-    <graphicData>
-      <texPath>Furniture/Furnitures/TableCommon3x3</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4.15, 4.15)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-	<designationCategory>GW_IF_Furniture</designationCategory>
-    <uiIconScale>0.8</uiIconScale>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>1500</WorkToBuild>
-      <Mass>10</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>1</Beauty>
-      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
-    </statBases>
-    <size>(3,3)</size>
-    <costStuffCount>50</costStuffCount>
-	<rotatable>false</rotatable>
-  </ThingDef>
+		<defName>GW_IF_3x3c</defName>
+		<label>table (3x3)</label>
+		<description>table</description>
+		<graphicData>
+			<texPath>Furniture/Furnitures/TableCommon3x3</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.15, 4.15)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<uiIconScale>0.8</uiIconScale>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<size>(3,3)</size>
+		<costStuffCount>50</costStuffCount>
+		<rotatable>false</rotatable>
+	</ThingDef>
   
-  <ThingDef ParentName="ArtableFurnitureBase">
-    <defName>GW_IF_Chair</defName>
-    <label>imperial chair</label>
-    <description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</description>
-    <graphicData>
-      <texPath>Furniture/Furnitures/ChairCommon</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2.5,2.5)</drawSize>
-	  <drawOffset>(0,0,0.1)</drawOffset>
-      <damageData>
-        <rectN>(0.25,0.234375,0.5,0.28125)</rectN>
-        <rectS>(0.25,0.234375,0.5,0.28125)</rectS>
-        <rectE>(0.28125,0.25,0.453125,0.25)</rectE>
-        <rectW>(0.28125,0.25,0.453125,0.25)</rectW>
-      </damageData>
-      <shadowData>
-        <volume>(0.23, 0.26, 0.23)</volume>
-      </shadowData>
-    </graphicData>
-	<designationCategory>GW_IF_Furniture</designationCategory>
-	<uiIconScale>0.8</uiIconScale>
-    <altitudeLayer>Building</altitudeLayer>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <WorkToBuild>8000</WorkToBuild>
-      <Mass>5</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>8</Beauty>
-      <Comfort>0.70</Comfort>
-    </statBases>
-    <socialPropernessMatters>true</socialPropernessMatters>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-    </stuffCategories>
-    <costStuffCount>45</costStuffCount>
-    <pathCost>30</pathCost>
-    <designationHotKey>Misc7</designationHotKey>
-    <fillPercent>0.35</fillPercent>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <uiOrder>2410</uiOrder>
-    <building>
-      <isSittable>true</isSittable>
-      <paintable>true</paintable>
-    </building>
-    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
-  </ThingDef>
+	<ThingDef ParentName="ArtableFurnitureBase">
+		<defName>GW_IF_Chair</defName>
+		<label>imperial chair</label>
+		<description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</description>
+		<graphicData>
+			<texPath>Furniture/Furnitures/ChairCommon</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.2,2.2)</drawSize>
+			<drawOffset>(0,0,-0.1)</drawOffset>
+			<drawOffsetNorth>(0,0,0.1)</drawOffsetNorth>
+			<drawOffsetEast>(0,-0.01,0)</drawOffsetEast>
+			<drawOffsetWest>(0,-0.01,0)</drawOffsetWest>
+			<damageData>
+				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
+				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
+				<rectE>(0.28125,0.25,0.453125,0.25)</rectE>
+				<rectW>(0.28125,0.25,0.453125,0.25)</rectW>
+			</damageData>
+			<shadowData>
+				<volume>(0.23, 0.26, 0.23)</volume>
+			</shadowData>
+		</graphicData>
+		<designationCategory>GW_IF_Furniture</designationCategory>
+		<uiIconScale>0.8</uiIconScale>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>8000</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>8</Beauty>
+			<Comfort>0.70</Comfort>
+		</statBases>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+		<pathCost>30</pathCost>
+		<designationHotKey>Misc7</designationHotKey>
+		<fillPercent>0.35</fillPercent>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<uiOrder>2410</uiOrder>
+		<building>
+			<isSittable>true</isSittable>
+			<paintable>true</paintable>
+		</building>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
 
 
 </Defs>
