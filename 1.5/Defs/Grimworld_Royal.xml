@@ -13,7 +13,9 @@
 			<Gold>50</Gold>
 		</costList>
 		<designationCategory>GW_IF_Furniture</designationCategory>
-		<researchPrerequisites>GW_IF_RoyalStuff</researchPrerequisites>
+		<researchPrerequisites>
+			<li>GW_IF_RoyalStuff</li>
+		</researchPrerequisites>
 	</ThingDef>
   
 	<ThingDef ParentName="GW_IF_RoyalBase">

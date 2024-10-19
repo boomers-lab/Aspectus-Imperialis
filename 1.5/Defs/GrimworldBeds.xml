@@ -38,7 +38,9 @@
 		<defName>GW_IF_RoyalSingle</defName>
 		<label>royal single bed</label>
 		<description>royal bed</description>
-		<researchPrerequisites>GW_IF_RoyalStuff</researchPrerequisites>
+		<researchPrerequisites>
+			<li>GW_IF_RoyalStuff</li>
+		</researchPrerequisites>
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
@@ -66,7 +68,9 @@
 		<defName>GW_IF_RoyalDouble</defName>
 		<label>royal double bed</label>
 		<description>royal bed</description>
-		<researchPrerequisites>GW_IF_RoyalStuff</researchPrerequisites>
+		<researchPrerequisites>
+			<li>GW_IF_RoyalStuff</li>
+		</researchPrerequisites>
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>

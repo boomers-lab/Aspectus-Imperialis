@@ -8,8 +8,9 @@
 			<li>ComplexFurniture</li>
 		</prerequisites>
         <baseCost>4000</baseCost>
-		<researchViewX>0.00</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>2.70</researchViewY>
 	</ResearchProjectDef>
+	
 
 </Defs>
