@@ -85,6 +85,7 @@
 		<graphicData>
 			<texPath>Furniture/Hearth/RoyalHearth</texPath>
 		</graphicData>
+		<researchPrerequisites>GW_IF_RoyalStuff</researchPrerequisites>
 		<costList>
 			<Gold>50</Gold>
 		</costList>

@@ -117,6 +117,7 @@
             <drawSize>(4, 4)</drawSize>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
+		<researchPrerequisites>GW_IF_RoyalStuff</researchPrerequisites>
         <costStuffCount>150</costStuffCount>
         <size>(4,4)</size>
         <statBases>
@@ -140,6 +141,7 @@
             <drawSize>(4, 6)</drawSize>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
+		<researchPrerequisites>GW_IF_RoyalStuff</researchPrerequisites>
         <costStuffCount>225</costStuffCount>
         <size>(4,6)</size>
         <statBases>
@@ -162,6 +164,7 @@
             <drawSize>(3, 6)</drawSize>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
+		<researchPrerequisites>GW_IF_RoyalStuff</researchPrerequisites>
         <costStuffCount>170</costStuffCount>
         <size>(3,6)</size>
         <statBases>
@@ -184,6 +187,7 @@
             <drawSize>(8, 8)</drawSize>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
+		<researchPrerequisites>GW_IF_RoyalStuff</researchPrerequisites>
         <costStuffCount>600</costStuffCount>
         <size>(8,8)</size>
         <statBases>
