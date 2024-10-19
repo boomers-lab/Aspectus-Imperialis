@@ -3,10 +3,10 @@
   <name>Aspectus Imperialis</name>
   <author>Clashgore, Alite, DogDough, SirLalaPyon</author>
   <packageId>Grimworld.AspectusImperialis</packageId>
+  <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/AspectusImperialisModIcon</modIconPath>
   <supportedVersions>
     <li>1.5</li>
   </supportedVersions>
-
   <loadAfter>
     <li>Ludeon.RimWorld.Royalty</li>
     <li>Ludeon.RimWorld.Ideology</li>
