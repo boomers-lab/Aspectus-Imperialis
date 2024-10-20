@@ -192,7 +192,7 @@
 			<WorkToBuild>8000</WorkToBuild>
 			<Mass>5</Mass>
 			<Flammability>1.0</Flammability>
-			<Beauty>8</Beauty>
+			<Beauty>5</Beauty>
 			<Comfort>0.70</Comfort>
 		</statBases>
 		<socialPropernessMatters>true</socialPropernessMatters>
