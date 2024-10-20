@@ -11,8 +11,8 @@
 	
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_Statues_1x1Janitor</defName>
-		<label>janitor guy</label>
-		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<label>Janitor statue</label>
+		<description>A small sculpture on a pedestal, depicting a humble Imperial janitor. \n\nHis struggle is of necessity, for dirt and grime breeds the plagues of Nurgle - but he doesn't know that. He will collapse and die before he discovers any meaning in his work.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Furniture/Statues/1x1 Simple/Statue1x1_JanitorGuy</texPath>
@@ -45,8 +45,8 @@
 	
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_Statues_1x1Sister</defName>
-		<label>sister of battle</label>
-		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<label>Sister of Battle statue</label>
+		<description>A small sculpture on a pedestal, depicting a zealot Battle-Sister of the Adepta Sororitas. \n\nHer struggle is one of absolute faith, burning the xeno, the mutant, and the witch without mercy. She believes what she is doing is an absolute good, the wishes of the God-Emperor of Mankind Himself.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<texPath>Furniture/Statues/1x1/Statue1x1_SisterSword</texPath>
@@ -79,8 +79,8 @@
 	
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_Statues_1x1Flag</defName>
-		<label>flag holding guardsman</label>
-		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<label>Flagbearer statue</label>
+		<description>A small sculpture on a pedestal, depicting a heroic Guardsman bearing a flag. \n\nHis struggle is one of survival. He trusts only in the Emperor and the man beside him, and prays that the horrors he faces will be torn apart by lasbolts before they consume him.</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/1x1/Statue1x1_GuardsmanFlag</texPath>
@@ -114,8 +114,8 @@
 	
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_1x1StatuesHoodGuy</defName>
-		<label>grimworld statue 1x1</label>
-		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<label>Priest statue</label>
+		<description>A small sculpture on a pedestal, depicting an Imperial priest. \n\nHis struggle is one of words, for he holds in his heart the utmost faith in the Emperor. Now, he must inspire those around him into the same faith.</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/1x1/Statue1x1_HoodGuy</texPath>
@@ -152,8 +152,8 @@
 	
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_1x1StatuesOfficer</defName>
-		<label>grimworld statue 1x1</label>
-		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<label>Officer statue</label>
+		<description>A small sculpture on a pedestal, depicting an officer of the Death Korps of Krieg. \n\nHis struggle is one of atonement, for he was born bearing the guilt of his ancestors. In life, he finds only war. In death, he finds peace.</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/1x1/Statue1x1_Officer</texPath>
@@ -190,8 +190,8 @@
 	
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_1x1StatuesSisterMace</defName>
-		<label>grimworld statue 1x1</label>
-		<description>A small-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<label>Celestian statue</label>
+		<description>A small sculpture on a pedestal, depicting a Celestian Sacresant Battle-Sister standing over the skull of a heretic. \n\nHer struggle is one of miracles, for only those of absolute faith can inspire the miracles that propel the Sister of Battle forward against their abominable enemies.</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/1x1/Statue1x1_SisterMace</texPath>
@@ -228,8 +228,8 @@
 	
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_2x2Statues</defName>
-		<label>grimworld statue 2x2</label>
-		<description>A medium-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<label>Marine Captain statue</label>
+		<description>A medium-size statue on a pedestal, depicting a Space Marine Captain armed with shield and powersword. \n\nHis is a struggle of leadership, for his eidetic memory allows him to recall the faces of every Marine that died under his command - or worse, on his orders.</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/2x2/Statue2x2_MarineShield</texPath>
@@ -263,8 +263,8 @@
 	
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_3x3Statues</defName>
-		<label>grimworld statue 3x3</label>
-		<description>A large-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<label>Marine Chaplain statue</label>
+		<description>A large statue on a pedestal, depicting a Space Marine Chaplain standing firm with his chainsword. \n\nHis struggle is one of discipline, for he lives a life of faith under great hardship, and inspires his battle-brothers to follow.</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/3x3/Statue3x3_MarineSword</texPath>
@@ -299,8 +299,8 @@
 	
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_4x4StatuesGuil</defName>
-		<label>grimworld statue 4x4</label>
-		<description>A grand-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<label>Roboute Guilliman statue</label>
+		<description>A grand sculpture on a pedestal, depicting the Imperial Regent, Roboute Guilliman. \n\nHis struggle is a silent one. He sees the rot of the Imperium for what it is, but despite his position - the highest in the Imperium - he can do precious little about it. If he should ever voice his true feelings, his words would collapse the Imperium around him, and the blood of their fall would stain his hands.</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/Grand/StatueGrand_Guil</texPath>
@@ -338,8 +338,8 @@
 	
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_4x4StatuesLion</defName>
-		<label>grimworld statue 4x4</label>
-		<description>A grand-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<label>Lion El'Jonson statue</label>
+		<description>A grand statue on a pedestal, depicting Lion El'Jonson, the Primarch of the Dark Angels. \n\nHis struggle is one of redemption, for he has tasked himself with finding the Fallen Angels and bringing them back to the light.</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/Grand/StatueGrand_Lion</texPath>
@@ -377,8 +377,8 @@
 	
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_4x4StatuesVald</defName>
-		<label>grimworld statue 4x4</label>
-		<description>A grand-size piece of material on a decorative pedestal, sculpted into an artistic form.</description>
+		<label>Constantin Valdor statue</label>
+		<description>A grand-size piece of material on a decorative pedestal, depicting Constantin Valdor, the First of the Ten Thousand. \n\nHis struggle is unknown. Constantin Valdor disappeared after the Horus Heresy, his last words being "Only in Death". None know of his whereabouts, but some believe him to be the mysterious "King in Yellow".</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/Grand/StatueGrand_Vald</texPath>
