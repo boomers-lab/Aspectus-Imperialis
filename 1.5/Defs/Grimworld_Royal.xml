@@ -1,7 +1,7 @@
 <Defs>
 
 	<ThingDef Name="GW_IF_RoyalBase" ParentName="TableGatherSpotBase" Abstract="True">
-		<description>An impressive looking.</description>
+		<description>An impressive table fit for Imperial nobility. \n\nEven the lavish meals of the rimworld pale in comparison to the daily foodstuffs of Imperial nobles. There, such exquisite taste can be found as to border on madness, with only the best acceptable - some nobles even have the luxury of tasting traded delicacies of the Eldar craftworlds. Even the scraps of such meals would be an inconceivable delight to the commoners.</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
@@ -166,7 +166,7 @@
 	<ThingDef ParentName="ArtableFurnitureBase">
 		<defName>GW_IF_Royal_Chair</defName>
 		<label>imperial royal chair</label>
-		<description>A comfortable and attractive chair. Can be used at tables, work stations, and elsewhere.</description>
+		<description>A comfortable, ornate chair designed for Imperial nobles. \n\nThe fact that this chair can sustain an immense mass without making a sound is perhaps a testament to the average weight of the nobility.</description>
 		<graphicData>
 			<texPath>Furniture/Furnitures/ChairRoyal</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
