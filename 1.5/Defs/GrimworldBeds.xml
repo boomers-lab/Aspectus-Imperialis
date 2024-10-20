@@ -6,6 +6,9 @@
 		<label>common single bed</label>
 		<description>common bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
 			<texPath>Furniture/Bed/CommonBed/Bed_CommonSingle</texPath>
@@ -17,6 +20,9 @@
 		<label>common double bed</label>
 		<description>common double bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
 			<texPath>Furniture/Bed/CommonBed/Bed_CommonDouble</texPath>
@@ -28,10 +34,16 @@
 		<label>common single bed</label>
 		<description>common bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
 			<texPath>Furniture/Bed/PrisonerBed/Bed_Prison</texPath>
 		</graphicData>
+		<building>
+			<bed_showSleeperBody>True</bed_showSleeperBody>
+		</building>
 	</ThingDef>
 	
 	<ThingDef ParentName="Bed">
@@ -98,6 +110,9 @@
 		<label>medicae bed</label>
 		<description>Medicae bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
 			<texPath>Furniture/Bed/Medicae/Bed_Medical</texPath>

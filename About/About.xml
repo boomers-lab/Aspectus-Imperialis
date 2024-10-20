@@ -8,10 +8,7 @@
     <li>1.5</li>
   </supportedVersions>
   <loadAfter>
-    <li>Ludeon.RimWorld.Royalty</li>
-    <li>Ludeon.RimWorld.Ideology</li>
-    <li>Ludeon.RimWorld.Biotech</li>
-    <li>Ludeon.RimWorld.Anomaly</li>
+    <li>grimworld.core</li>
   </loadAfter>
 
   <description>

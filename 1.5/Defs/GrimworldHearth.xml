@@ -72,6 +72,9 @@
 		<graphicData>
 			<texPath>Furniture/Hearth/Hearth</texPath>
 		</graphicData>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
 		<statBases>
 			<Beauty>5</Beauty>
 			<WorkToBuild>2000</WorkToBuild>

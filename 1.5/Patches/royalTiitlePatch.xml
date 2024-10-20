@@ -1,0 +1,16 @@
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Royalty [Official DLC]</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/RoyalTitleDef[@ParentName="BaseEmpireTitle"]/bedroomRequirements/li[@Class="RoomRequirement_ThingAnyOf"]/things</xpath>
+			<value>
+				<li>GW_IF_RoyalSingle</li>
+				<li>GW_IF_RoyalDouble</li>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

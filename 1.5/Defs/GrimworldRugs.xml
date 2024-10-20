@@ -22,8 +22,9 @@
             <li>FloorCoverings</li>
         </blocksAltitudes>
         <researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
             <li>CarpetMaking</li>
-        </researchPrerequisites>      
+        </researchPrerequisites>      		
         <building>
             <isEdifice>false</isEdifice>
         </building>
@@ -117,6 +118,7 @@
             <drawSize>(4, 4)</drawSize>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
+		<uiIconPath>Furniture/Rugs/RugRoyal4x4</uiIconPath>
 		<researchPrerequisites>
 			<li>GW_IF_RoyalStuff</li>
 		</researchPrerequisites>
@@ -143,6 +145,7 @@
             <drawSize>(4, 6)</drawSize>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
+		<uiIconPath>Furniture/Rugs/RugRoyalGrand4x6</uiIconPath>
 		<researchPrerequisites>
 			<li>GW_IF_RoyalStuff</li>
 		</researchPrerequisites>
@@ -168,6 +171,7 @@
             <drawSize>(3, 6)</drawSize>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
+		<uiIconPath>Furniture/Rugs/RugLongRoyal3x6</uiIconPath>
 		<researchPrerequisites>
 			<li>GW_IF_RoyalStuff</li>
 		</researchPrerequisites>
@@ -193,6 +197,7 @@
             <drawSize>(8, 8)</drawSize>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
+		<uiIconPath>Furniture/Rugs/RugRoyalGrandGrand8x8</uiIconPath>
 		<researchPrerequisites>
 			<li>GW_IF_RoyalStuff</li>
 		</researchPrerequisites>

@@ -1,14 +1,26 @@
 <Defs>
 
 	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
+		<defName>GW_IF_CommonStuff</defName>
+		<label>imperium furniture</label>
+        <description>build imperial stuff.</description>
+		<prerequisites>
+			<li>ComplexFurniture</li>
+		</prerequisites>
+        <baseCost>1000</baseCost>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>2.70</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
 		<defName>GW_IF_RoyalStuff</defName>
 		<label>imperium royal furniture</label>
         <description>build royal imperial stuff.</description>
 		<prerequisites>
-			<li>ComplexFurniture</li>
+			<li>GW_IF_CommonStuff</li>
 		</prerequisites>
-        <baseCost>4000</baseCost>
-		<researchViewX>2.00</researchViewX>
+        <baseCost>1500</baseCost>
+		<researchViewX>4.00</researchViewX>
 		<researchViewY>2.70</researchViewY>
 	</ResearchProjectDef>
 	
