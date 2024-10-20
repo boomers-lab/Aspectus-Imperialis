@@ -4,7 +4,7 @@
 	<ThingDef ParentName="Bed">
 		<defName>GW_IF_CommonSingle</defName>
 		<label>common single bed</label>
-		<description>common bed</description>
+		<description>A simple Imperial bed. A common sight on any world of the Imperium of Man, for even the most devoted require rest. \n\nManpower was, is, and will always be the greatest strength of the Imperium of Man.</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<researchPrerequisites>
 			<li>GW_IF_CommonStuff</li>
@@ -18,7 +18,7 @@
 	<ThingDef ParentName="DoubleBed">
 		<defName>GW_IF_CommonDouble</defName>
 		<label>common double bed</label>
-		<description>common double bed</description>
+		<description>A simple Imperial bed for two. A common sight on any world of the Imperium of Man, for even the most devoted require rest. \n\nManpower was, is, and will always be the greatest strength of the Imperium of Man.</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<researchPrerequisites>
 			<li>GW_IF_CommonStuff</li>
@@ -31,8 +31,8 @@
 	
 	<ThingDef ParentName="Bed">
 		<defName>GW_IF_PrisonerSingle</defName>
-		<label>common single bed</label>
-		<description>common bed</description>
+		<label>Prisoner bed</label>
+		<description>Not quite a bed, but a position of restraint. From here, a heretic's penitence begins. \n\nThe Imperium brooks no dissent. "Heresy" includes not only worship of the Chaos Gods, but also any action or beliefs that acts against the Imperium.</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<researchPrerequisites>
 			<li>GW_IF_CommonStuff</li>
@@ -48,8 +48,8 @@
 	
 	<ThingDef ParentName="Bed">
 		<defName>GW_IF_RoyalSingle</defName>
-		<label>royal single bed</label>
-		<description>royal bed</description>
+		<label>Noble single bed</label>
+		<description>An ornate bed, suitable for the highborn of the Imperium of Man - the nobility. \n\nThe highborn live a life entirely different to that of common Imperial citizens - a life of immense wealth, power, and influence. That is not to say it is without its own dangers - shunning by their peers, assassins in the night, and the temptations of the Chaos Gods in the form of cults and cliques.</description>
 		<researchPrerequisites>
 			<li>GW_IF_RoyalStuff</li>
 		</researchPrerequisites>
@@ -78,8 +78,8 @@
 	
 	<ThingDef ParentName="DoubleBed">
 		<defName>GW_IF_RoyalDouble</defName>
-		<label>royal double bed</label>
-		<description>royal bed</description>
+		<label>Noble double bed</label>
+		<description>An ornate bed for two, suitable for the highborn of the Imperium of Man - the nobility. \n\nThe highborn live a life entirely different to that of common Imperial citizens - a life of immense wealth, power, and influence. That is not to say it is without its own dangers - shunning by their peers, assassins in the night, and the temptations of the Chaos Gods in the form of cults and cliques.</description>
 		<researchPrerequisites>
 			<li>GW_IF_RoyalStuff</li>
 		</researchPrerequisites>
