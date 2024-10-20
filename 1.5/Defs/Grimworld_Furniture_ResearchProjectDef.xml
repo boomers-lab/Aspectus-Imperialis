@@ -3,7 +3,7 @@
 	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
 		<defName>GW_IF_CommonStuff</defName>
 		<label>imperium furniture</label>
-        <description>build imperial stuff.</description>
+        <description>Construct the furniture of the hard-working citizens of the Imperium of Man.</description>
 		<prerequisites>
 			<li>ComplexFurniture</li>
 		</prerequisites>
@@ -15,7 +15,7 @@
 	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
 		<defName>GW_IF_RoyalStuff</defName>
 		<label>imperium royal furniture</label>
-        <description>build royal imperial stuff.</description>
+        <description>Craft furniture suited for the Imperium of Man's decadent noble classes.</description>
 		<prerequisites>
 			<li>GW_IF_CommonStuff</li>
 		</prerequisites>
