@@ -32,7 +32,7 @@
 	<ThingDef ParentName="Bed">
 		<defName>GW_IF_PrisonerSingle</defName>
 		<label>Prisoner bed</label>
-		<description>Not quite a bed, but a position of restraint. From here, a heretic's penitence begins. \n\nThe Imperium brooks no dissent. "Heresy" includes not only worship of the Chaos Gods, but also any action or beliefs that acts against the Imperium.</description>
+		<description>Not quite a bed, but a position of restraint. From here, a heretic's penitence begins. \n\nThe Imperium brooks no dissent. "Heresy" includes not only worship of the Chaos Gods, but also any action or belief that works against the Imperium.</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<researchPrerequisites>
 			<li>GW_IF_CommonStuff</li>
