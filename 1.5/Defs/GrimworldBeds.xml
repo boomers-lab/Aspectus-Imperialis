@@ -33,6 +33,8 @@
 		<defName>GW_IF_PrisonerSingle</defName>
 		<label>Prisoner bed</label>
 		<description>Not quite a bed, but a position of restraint. From here, a heretic's penitence begins. \n\nThe Imperium brooks no dissent. "Heresy" includes not only worship of the Chaos Gods, but also any action or beliefs that acts against the Imperium.</description>
+		<label>common prisoner bed</label>
+		<description>common bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<researchPrerequisites>
 			<li>GW_IF_CommonStuff</li>
@@ -40,6 +42,7 @@
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<graphicData>
 			<texPath>Furniture/Bed/PrisonerBed/Bed_Prison</texPath>
+			<drawOffset>(0,0.01,0)</drawOffset>
 		</graphicData>
 		<building>
 			<bed_showSleeperBody>True</bed_showSleeperBody>

@@ -26,6 +26,9 @@
 		</statBases>
 		<size>(1,1)</size>
 		<costStuffCount>28</costStuffCount>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
 	</ThingDef>
 	
 	<ThingDef ParentName="TableGatherSpotBase">
@@ -55,6 +58,9 @@
 		</statBases>
 		<size>(1,2)</size>
 		<costStuffCount>28</costStuffCount>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
 	</ThingDef>
 	
 	<ThingDef ParentName="TableGatherSpotBase">
@@ -86,6 +92,9 @@
 		<size>(2,2)</size>
 		<costStuffCount>50</costStuffCount>
 		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
 	</ThingDef>
 	
 	<ThingDef ParentName="TableGatherSpotBase">
@@ -115,6 +124,9 @@
 		</statBases>
 		<size>(2,4)</size>
 		<costStuffCount>50</costStuffCount>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
 	</ThingDef>
 	
 	<ThingDef ParentName="TableGatherSpotBase">
@@ -145,6 +157,9 @@
 		<size>(3,3)</size>
 		<costStuffCount>50</costStuffCount>
 		<rotatable>false</rotatable>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
 	</ThingDef>
   
 	<ThingDef ParentName="ArtableFurnitureBase">
@@ -196,6 +211,9 @@
 			<paintable>true</paintable>
 		</building>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 

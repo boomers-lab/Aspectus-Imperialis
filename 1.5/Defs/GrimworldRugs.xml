@@ -20,11 +20,7 @@
         <defaultPlacingRot>South</defaultPlacingRot>
         <blocksAltitudes>
             <li>FloorCoverings</li>
-        </blocksAltitudes>
-        <researchPrerequisites>
-			<li>GW_IF_CommonStuff</li>
-            <li>CarpetMaking</li>
-        </researchPrerequisites>      		
+        </blocksAltitudes>         		
         <building>
             <isEdifice>false</isEdifice>
         </building>
@@ -44,6 +40,11 @@
             <texPath>Furniture/Rugs/Rug4x4</texPath>
             <drawSize>(4, 4)</drawSize>
         </graphicData>
+		<uiIconPath>Furniture/Rugs/Rug4x4</uiIconPath>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+			<li>CarpetMaking</li>
+        </researchPrerequisites>     
         <costStuffCount>150</costStuffCount>
         <size>(4,4)</size>
         <statBases>
@@ -63,6 +64,11 @@
             <texPath>Furniture/Rugs/RugGrand4x6</texPath>
             <drawSize>(4, 6)</drawSize>
         </graphicData>
+		<uiIconPath>Furniture/Rugs/RugGrand4x6</uiIconPath>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+			<li>CarpetMaking</li>
+        </researchPrerequisites>  
         <costStuffCount>225</costStuffCount>
         <size>(4,6)</size>
         <statBases>
@@ -81,6 +87,11 @@
             <texPath>Furniture/Rugs/RugLong3x6</texPath>
             <drawSize>(3, 6)</drawSize>
         </graphicData>
+		<uiIconPath>Furniture/Rugs/RugLong3x6</uiIconPath>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+			<li>CarpetMaking</li>
+        </researchPrerequisites>  
         <costStuffCount>170</costStuffCount>
         <size>(3,6)</size>
         <statBases>
@@ -99,6 +110,11 @@
             <texPath>Furniture/Rugs/RugGrandGrand8x8</texPath>
             <drawSize>(8, 8)</drawSize>
         </graphicData>
+		<uiIconPath>Furniture/Rugs/RugGrandGrand8x8</uiIconPath>
+		<researchPrerequisites>
+			<li>GW_IF_CommonStuff</li>
+			<li>CarpetMaking</li>
+        </researchPrerequisites>  
         <costStuffCount>600</costStuffCount>
         <size>(8,8)</size>
         <statBases>
@@ -120,6 +136,7 @@
         </graphicData>
 		<uiIconPath>Furniture/Rugs/RugRoyal4x4</uiIconPath>
 		<researchPrerequisites>
+			<li>CarpetMaking</li>
 			<li>GW_IF_RoyalStuff</li>
 		</researchPrerequisites>
         <costStuffCount>150</costStuffCount>
@@ -147,6 +164,7 @@
         </graphicData>
 		<uiIconPath>Furniture/Rugs/RugRoyalGrand4x6</uiIconPath>
 		<researchPrerequisites>
+			<li>CarpetMaking</li>
 			<li>GW_IF_RoyalStuff</li>
 		</researchPrerequisites>
         <costStuffCount>225</costStuffCount>
@@ -173,6 +191,7 @@
         </graphicData>
 		<uiIconPath>Furniture/Rugs/RugLongRoyal3x6</uiIconPath>
 		<researchPrerequisites>
+			<li>CarpetMaking</li>
 			<li>GW_IF_RoyalStuff</li>
 		</researchPrerequisites>
         <costStuffCount>170</costStuffCount>
@@ -196,9 +215,10 @@
             <texPath>Furniture/Rugs/RugRoyalGrandGrand8x8</texPath>
             <drawSize>(8, 8)</drawSize>
             <shaderType>CutoutComplex</shaderType>
-        </graphicData>
+        </graphicData> 
 		<uiIconPath>Furniture/Rugs/RugRoyalGrandGrand8x8</uiIconPath>
 		<researchPrerequisites>
+			<li>CarpetMaking</li>
 			<li>GW_IF_RoyalStuff</li>
 		</researchPrerequisites>
         <costStuffCount>600</costStuffCount>
