@@ -3,7 +3,7 @@
 	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
 		<defName>GW_IF_RoyalStuff</defName>
 		<label>imperium royal furniture</label>
-        <description>Synthesise two of the Imperium of Man’s drugs - the enhancing Combat Stims and the incredibly-strong Fenrisian Ale (also known as Mjød).</description>
+        <description>build royal imperial stuff.</description>
 		<prerequisites>
 			<li>ComplexFurniture</li>
 		</prerequisites>
