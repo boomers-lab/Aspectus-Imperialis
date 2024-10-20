@@ -191,7 +191,7 @@
 	<ThingDef ParentName="GW40k_StatuesBase">
 		<defName>GW40k_1x1StatuesSisterMace</defName>
 		<label>Celestian statue</label>
-		<description>A small sculpture on a pedestal, depicting a Celestian Sacresant Battle-Sister standing over the skull of a heretic. \n\nHer struggle is one of miracles, for only those of absolute faith can inspire the miracles that propel the Sister of Battle forward against their abominable enemies.</description>
+		<description>A small sculpture on a pedestal, depicting a Celestian Sacresant Battle-Sister standing over the skull of a heretic. \n\nHer struggle is one of miracles. Only those of absolute faith can inspire the miracles that propel the Sisters of Battle forward against their abominable enemies.</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/1x1/Statue1x1_SisterMace</texPath>
