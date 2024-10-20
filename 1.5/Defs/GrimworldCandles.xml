@@ -45,7 +45,7 @@
     <ThingDef ParentName="GW_IF_CandleBase">
         <defName>GW_IF_Candle</defName>
         <label>candle</label>
-        <description>candle</description>
+        <description>A single candle. Provides light in times of darkness. \n\nWhile wax candles are widespread in the Imperium of Man, there are also candles of tallow - some made of dead animals, while others made of human corpses.</description>
         <tickerType>Normal</tickerType>
         <graphicData>
             <texPath>Furniture/Candles/Candle</texPath>
@@ -54,8 +54,8 @@
 
     <ThingDef ParentName="GW_IF_CandleBase">
         <defName>GW_IF_CandlesWax</defName>
-        <label>candles (wax)</label>
-        <description>candles</description>
+        <label>candle bunch</label>
+        <description>A cluster of candles. Provides light in times of darkness. \n\nWhile wax candles are widespread in the Imperium of Man, there is also candles of tallow - some made of dead animals, while others made of human corpses.</description>
         <tickerType>Normal</tickerType>
         <graphicData>
             <texPath>Furniture/Candles/CandlesWax</texPath>
@@ -65,7 +65,7 @@
     <ThingDef ParentName="GW_IF_CandleBase">
         <defName>GW_IF_Candelabra</defName>
         <label>candelabra</label>
-        <description>candelabra</description>
+        <description>A metal candelabra. Suitable for church ceremony and nobleman's mansion alike. \n\nIt is true, great cruelty is present on the rimworlds. But it all pales in comparison to the churning, industrial cruelty of the Imperium of Man. To see such things, all one has to do is observe a candle's light - it is made of burning dead.</description>
         <graphicData>
             <texPath>Furniture/Candles/Candelabra</texPath>
         </graphicData>
@@ -94,7 +94,7 @@
     <ThingDef ParentName="GW_IF_CandleBase">
         <defName>GW_IF_CandleSkull</defName>
         <label>candle (skull)</label>
-        <description>candle</description>
+        <description>A candle stood on a human skull. Provides light in times of darkness. \n\nWhile wax candles are widespread in the Imperium of Man, there are also candles of tallow - some made of dead animals, while others made of human corpses.</description>
         <tickerType>Normal</tickerType>
         <graphicData>
             <texPath>Furniture/Candles/CandleSkull</texPath>
@@ -107,7 +107,7 @@
     <ThingDef ParentName="GW_IF_CandleBase">
         <defName>GW_IF_CandleStand</defName>
         <label>candle (stand)</label>
-        <description>candle</description>
+        <description>A single candle on a stand. Provides light in times of darkness. \n\nWhile wax candles are widespread in the Imperium of Man, there are also candles of tallow - some made of dead animals, while others made of human corpses.</description>
         <graphicData>
             <texPath>Furniture/Candles/CandleStand</texPath>
         </graphicData>
