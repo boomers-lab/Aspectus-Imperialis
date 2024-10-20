@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Aspectus Imperialis</name>
-  <author>Clashgore, Alite, DogDough, SirLalaPyon</author>
+  <author>Clashgore, Alite, DogDough, Gerrymon</author>
   <packageId>Grimworld.AspectusImperialis</packageId>
   <modIconPath IgnoreIfNoMatchingField="True">UI/Icons/AspectusImperialisModIcon</modIconPath>
   <supportedVersions>
