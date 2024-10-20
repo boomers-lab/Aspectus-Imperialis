@@ -66,7 +66,7 @@
 			<WorkToBuild>50000</WorkToBuild>
 			<Mass>60</Mass>
 			<Beauty>75</Beauty>
-			<BedRestEffectiveness>1.05</BedRestEffectiveness>
+			<BedRestEffectiveness>1.09375</BedRestEffectiveness>
 			<Comfort>0.90</Comfort>
 		</statBases>
 		<costList>
@@ -95,7 +95,7 @@
 			<WorkToBuild>50000</WorkToBuild>
 			<Mass>60</Mass>
 			<Beauty>75</Beauty>
-			<BedRestEffectiveness>1.05</BedRestEffectiveness>
+			<BedRestEffectiveness>1.09375</BedRestEffectiveness>
 			<Comfort>0.90</Comfort>
 		</statBases>
 		<costList>
@@ -111,7 +111,8 @@
 		<label>medicae bed</label>
 		<description>Medicae bed</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
-		<researchPrerequisites>
+		<researchPrerequisites Inherit="False">
+			<li>HospitalBed</li>
 			<li>GW_IF_CommonStuff</li>
 		</researchPrerequisites>
 		<defaultPlacingRot>South</defaultPlacingRot>
