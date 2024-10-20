@@ -34,7 +34,7 @@
     <ThingDef ParentName="GW_IF_RugBase"> <!--all stats are based on vanilla rug of same size-->
         <defName>GW_IF_4x4MundaneRug</defName>
         <label>imperial rug (4x4)</label>
-        <description>It's a rug.</description>
+        <description>A simple rug, made in Imperial style. \n\nAsk not what the Emperor has done for you; ask yourself what you have done for the Emperor.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <texPath>Furniture/Rugs/Rug4x4</texPath>
@@ -58,7 +58,7 @@
     <ThingDef ParentName="GW_IF_RugBase"> 
         <defName>GW_IF_4x6MundaneRug</defName>
         <label>imperial rug (4x6)</label>
-        <description>It's a rug.</description>
+        <description>A simple rug, made in Imperial style. \n\nAsk not what the Emperor has done for you; ask yourself what you have done for the Emperor.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <texPath>Furniture/Rugs/RugGrand4x6</texPath>
@@ -81,7 +81,7 @@
     <ThingDef ParentName="GW_IF_RugBase"> 
         <defName>GW_IF_3x6MundaneRug</defName>
         <label>imperial rug (3x6)</label>
-        <description>It's a rug.</description>
+        <description>A simple rug, made in Imperial style. \n\nAsk not what the Emperor has done for you; ask yourself what you have done for the Emperor.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <texPath>Furniture/Rugs/RugLong3x6</texPath>
@@ -104,7 +104,7 @@
     <ThingDef ParentName="GW_IF_RugBase"> 
         <defName>GW_IF_8x8MundaneRug</defName>
         <label>imperial rug (8x8)</label>
-        <description>It's a rug.</description>
+        <description>A simple rug, made in Imperial style. \n\nAsk not what the Emperor has done for you; ask yourself what you have done for the Emperor.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <texPath>Furniture/Rugs/RugGrandGrand8x8</texPath>
@@ -126,8 +126,8 @@
 
     <ThingDef ParentName="GW_IF_RugBase"> <!--all stats are based on vanilla rug of same size with some gold added in-->
         <defName>GW_IF_4x4RoyalRug</defName>
-        <label>royal imperial rug (4x4)</label>
-        <description>It's a rug.</description>
+        <label>Royal Imperial rug (4x4)</label>
+        <description>An elaborate rug for noble floors. \n\nSome nobles live their entire lives in ivory towers (which may not be entirely metaphorical). The struggles of the common man are entirely alien to them.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <texPath>Furniture/Rugs/RugRoyal4x4</texPath>
@@ -155,7 +155,7 @@
     <ThingDef ParentName="GW_IF_RugBase"> 
         <defName>GW_IF_4x6RoyalRug</defName>
         <label>royal imperial rug (4x6)</label>
-        <description>It's a rug.</description>
+        <description>An elaborate rug for noble floors. \n\nSome nobles live their entire lives in ivory towers (which may not be entirely metaphorical). The struggles of the common man are entirely alien to them.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <texPath>Furniture/Rugs/RugRoyalGrand4x6</texPath>
@@ -182,7 +182,7 @@
     <ThingDef ParentName="GW_IF_RugBase"> 
         <defName>GW_IF_3x6RoyalRug</defName>
         <label>royal imperial rug (3x6)</label>
-        <description>It's a rug.</description>
+        <description>An elaborate rug for noble floors. \n\nSome nobles live their entire lives in ivory towers (which may not be entirely metaphorical). The struggles of the common man are entirely alien to them.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <texPath>Furniture/Rugs/RugLongRoyal3x6</texPath>
@@ -209,7 +209,7 @@
     <ThingDef ParentName="GW_IF_RugBase"> 
         <defName>GW_IF_8x8RoyalRug</defName>
         <label>royal imperial rug (8x8)</label>
-        <description>It's a rug.</description>
+        <description>An elaborate rug for noble floors. \n\nSome nobles live their entire lives in ivory towers (which may not be entirely metaphorical). The struggles of the common man are entirely alien to them.</description>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
             <texPath>Furniture/Rugs/RugRoyalGrandGrand8x8</texPath>
