@@ -68,7 +68,7 @@
 	<ThingDef ParentName="GW_IF_Hearth">
 		<defName>GW_IF_Hearth</defName>
 		<label>hearth</label>
-		<description>hearth</description>
+		<description>A hearth. A source of light and heat for more well-to-do commoners. \n\nThe Imperium is advanced in many ways, yet regressive in others. Many a tech-priest has repaired a plasma gun by candlelight.</description>
 		<graphicData>
 			<texPath>Furniture/Hearth/Hearth</texPath>
 		</graphicData>
@@ -84,7 +84,7 @@
 	<ThingDef ParentName="GW_IF_Hearth">
 		<defName>GW_IF_RoyalHearth</defName>
 		<label>royal hearth</label>
-		<description>hearth</description>
+		<description>An ornate hearth. Warms the cold hearts of Imperial nobility. \n\nIt is only natural for the worst of the Imperium's nobles to fall into heretical cults. With so much wealth and power, their minds wander to exotic tastes.</description>
 		<graphicData>
 			<texPath>Furniture/Hearth/RoyalHearth</texPath>
 		</graphicData>
