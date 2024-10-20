@@ -208,6 +208,9 @@
 			<paintable>true</paintable>
 		</building>
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>GW_IF_RoyalStuff</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 </Defs>
