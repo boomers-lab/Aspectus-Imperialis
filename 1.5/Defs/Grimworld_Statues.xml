@@ -245,7 +245,7 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>2</Mass>
 			<Beauty>20</Beauty>
-			<WorkToMake>18000</WorkToMake>
+			<WorkToMake>36000</WorkToMake>
 		</statBases>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -281,7 +281,7 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>20</Mass>
 			<Beauty>50</Beauty>
-			<WorkToMake>18000</WorkToMake>
+			<WorkToMake>66000</WorkToMake>
 		</statBases>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -317,7 +317,7 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>20</Mass>
 			<Beauty>150</Beauty>
-			<WorkToMake>18000</WorkToMake>
+			<WorkToMake>120000</WorkToMake>
 		</statBases>
 		<costList>
             <Gold>100</Gold>
@@ -356,7 +356,7 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>20</Mass>
 			<Beauty>150</Beauty>
-			<WorkToMake>18000</WorkToMake>
+			<WorkToMake>120000</WorkToMake>
 		</statBases>
 		<costList>
             <Gold>100</Gold>
@@ -395,7 +395,7 @@
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>20</Mass>
 			<Beauty>150</Beauty>
-			<WorkToMake>18000</WorkToMake>
+			<WorkToMake>120000</WorkToMake>
 		</statBases>
 		<costList>
             <Gold>100</Gold>
