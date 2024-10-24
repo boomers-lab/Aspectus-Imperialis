@@ -131,6 +131,23 @@
 			<SurgerySuccessChanceFactor>1.21</SurgerySuccessChanceFactor>
 			<BirthRitualQualityOffset MayRequire="Ludeon.RimWorld.Biotech">5.5</BirthRitualQualityOffset>
 		</statBases>
+		<comps>
+		  <li Class="CompProperties_AffectedByFacilities">
+			<linkableFacilities>
+			  <li>VitalsMonitor</li>
+			  <li>EndTable</li>
+			  <li>Dresser</li>
+			  <li MayRequire="Ludeon.RimWorld.Ideology">SleepAccelerator</li>
+			</linkableFacilities>
+		  </li>
+		</comps>
+		<building>
+		  <bed_showSleeperBody>False</bed_showSleeperBody>
+		  <bed_healPerDay>10</bed_healPerDay>
+		  <bed_defaultMedical>true</bed_defaultMedical>
+		  <buildingSizeCategory>Small</buildingSizeCategory>
+		  <paintable>true</paintable>
+		</building>
 	</ThingDef>
 
 	<!-- <ThingDef ParentName="Bed"> -->
