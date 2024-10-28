@@ -170,6 +170,7 @@
 		<graphicData>
 			<texPath>Furniture/Furnitures/ChairRoyal</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(3.15,3.15)</drawSize>
 			<damageData>
 				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
