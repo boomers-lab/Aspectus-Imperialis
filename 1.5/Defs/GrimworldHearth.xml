@@ -15,7 +15,7 @@
 		</stuffCategories>
 
 		<costStuffCount>60</costStuffCount>
-		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<tickerType>Normal</tickerType>
