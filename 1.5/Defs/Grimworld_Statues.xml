@@ -50,7 +50,7 @@
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/1x1/Statue1x1_SisterSword</texPath>
-			<drawSize>(1,1.5)</drawSize>
+			<drawSize>(2,2)</drawSize>
 			<drawOffset>(0,0,0.35)</drawOffset>
 		</graphicData>
 		<size>(1,1)</size>
