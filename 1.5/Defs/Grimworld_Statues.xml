@@ -48,16 +48,17 @@
 		<label>Sister of Battle statue</label>
 		<description>A small sculpture on a pedestal, depicting a zealot Battle-Sister of the Adepta Sororitas. \n\nHer struggle is one of absolute faith, burning the xeno, the mutant, and the witch without mercy. She believes what she is doing is an absolute good, the wishes of the God-Emperor of Mankind Himself.</description>
 		<graphicData>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Furniture/Statues/1x1/Statue1x1_SisterSword</texPath>
-			<drawSize>(2,2)</drawSize>
-			<drawOffset>(0,0,0.18)</drawOffset>
+			<drawSize>(1,1.5)</drawSize>
+			<drawOffset>(0,0,0.35)</drawOffset>
 		</graphicData>
 		<size>(1,1)</size>
 		<!-- <designationCategory>GW_IF_Furniture</designationCategory> -->
 		<fillPercent>0.25</fillPercent>
 		<castEdgeShadows>false</castEdgeShadows>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
 			<Mass>2</Mass>
