@@ -7,6 +7,7 @@
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(4,3)</drawSize>
+			<drawOffset>(0,0.009,0)</drawOffset>
 		</graphicData>
 		<staticSunShadowHeight>0.3</staticSunShadowHeight>
 		<stuffCategories>

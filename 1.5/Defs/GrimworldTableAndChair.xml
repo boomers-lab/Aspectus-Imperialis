@@ -170,7 +170,7 @@
 			<texPath>Furniture/Furnitures/ChairCommon</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(2.2,2.2)</drawSize>
-			<drawOffset>(0,0,0)</drawOffset>
+			<drawOffset>(0,0.01,0)</drawOffset>
 			<damageData>
 				<rectN>(0.25,0.234375,0.5,0.28125)</rectN>
 				<rectS>(0.25,0.234375,0.5,0.28125)</rectS>
