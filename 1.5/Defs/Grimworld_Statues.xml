@@ -321,7 +321,7 @@
 			<WorkToMake>105000</WorkToMake>
 		</statBases>
 		<costList>
-            <Gold>100</Gold>
+            <Gold>10</Gold>
         </costList>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -360,7 +360,7 @@
 			<WorkToMake>105000</WorkToMake>
 		</statBases>
 		<costList>
-            <Gold>100</Gold>
+            <Gold>10</Gold>
         </costList>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -399,7 +399,7 @@
 			<WorkToMake>105000</WorkToMake>
 		</statBases>
 		<costList>
-            <Gold>100</Gold>
+            <Gold>10</Gold>
         </costList>
 		<stuffCategories>
 			<li>Metallic</li>
