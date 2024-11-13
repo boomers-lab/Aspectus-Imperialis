@@ -25,9 +25,9 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<rotatable>false</rotatable>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>90</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>10</Beauty>
+			<Beauty>50</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -60,9 +60,9 @@
 		<rotatable>true</rotatable>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>90</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>10</Beauty>
+			<Beauty>50</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -95,9 +95,9 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>90</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>10</Beauty>
+			<Beauty>50</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -132,9 +132,9 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>90</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>10</Beauty>
+			<Beauty>50</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -170,9 +170,9 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>90</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>10</Beauty>
+			<Beauty>50</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -208,9 +208,9 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>90</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>10</Beauty>
+			<Beauty>50</Beauty>
 			<WorkToMake>18000</WorkToMake>
 		</statBases>
 		<stuffCategories>
@@ -243,10 +243,10 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>150</MaxHitPoints>
 			<Mass>2</Mass>
-			<Beauty>20</Beauty>
-			<WorkToMake>36000</WorkToMake>
+			<Beauty>100</Beauty>
+			<WorkToMake>30000</WorkToMake>
 		</statBases>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -279,10 +279,10 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>200</MaxHitPoints>
 			<Mass>20</Mass>
-			<Beauty>50</Beauty>
-			<WorkToMake>66000</WorkToMake>
+			<Beauty>150</Beauty>
+			<WorkToMake>40000</WorkToMake>
 		</statBases>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -315,10 +315,10 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>20</Mass>
-			<Beauty>150</Beauty>
-			<WorkToMake>120000</WorkToMake>
+			<Beauty>500</Beauty>
+			<WorkToMake>105000</WorkToMake>
 		</statBases>
 		<costList>
             <Gold>100</Gold>
@@ -333,7 +333,7 @@
 				<!-- <li></li> -->
 			</researchPrerequisite>
 		</recipeMaker>
-		<costStuffCount>250</costStuffCount>
+		<costStuffCount>300</costStuffCount>
 		<comps />
 	</ThingDef>
 	
@@ -354,10 +354,10 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>20</Mass>
-			<Beauty>150</Beauty>
-			<WorkToMake>120000</WorkToMake>
+			<Beauty>500</Beauty>
+			<WorkToMake>105000</WorkToMake>
 		</statBases>
 		<costList>
             <Gold>100</Gold>
@@ -372,7 +372,7 @@
 				<!-- <li></li> -->
 			</researchPrerequisite>
 		</recipeMaker>
-		<costStuffCount>250</costStuffCount>
+		<costStuffCount>300</costStuffCount>
 		<comps />
 	</ThingDef>
 	
@@ -393,10 +393,10 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<statBases>
-			<MaxHitPoints>80</MaxHitPoints>
+			<MaxHitPoints>300</MaxHitPoints>
 			<Mass>20</Mass>
-			<Beauty>150</Beauty>
-			<WorkToMake>120000</WorkToMake>
+			<Beauty>500</Beauty>
+			<WorkToMake>105000</WorkToMake>
 		</statBases>
 		<costList>
             <Gold>100</Gold>
@@ -411,7 +411,7 @@
 				<!-- <li></li> -->
 			</researchPrerequisite>
 		</recipeMaker>
-		<costStuffCount>250</costStuffCount>
+		<costStuffCount>300</costStuffCount>
 		<comps />
 	</ThingDef>
 
