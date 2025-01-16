@@ -109,7 +109,7 @@
 	<ThingDef ParentName="Bed">
 		<defName>GW_IF_MedicaeBed</defName>
 		<label>medicae bed</label>
-		<description>Medicae bed</description>
+		<description>A medical bed, moderately equipped with medical paraphernalia for use by a trained medicae. Patients resting on it can look forward to improved medical outcomes. \n\nThose resting on this bed should consider themselves lucky. On some worlds of the Imperium, a man with an infected wound can only look forward to a crude amputation with a dirty bonesaw - and, probably, a slow death.</description>
 		<designationCategory>GW_IF_Furniture</designationCategory>
 		<researchPrerequisites Inherit="False">
 			<li>HospitalBed</li>
