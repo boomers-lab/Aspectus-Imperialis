@@ -3,11 +3,11 @@
 	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
 		<defName>GW_IF_CommonStuff</defName>
 		<label>imperium furniture</label>
-        <description>Construct the furniture of the hard-working citizens of the Imperium of Man.</description>
+		<description>Construct the furniture of the hard-working citizens of the Imperium of Man.</description>
 		<prerequisites>
 			<li>ComplexFurniture</li>
 		</prerequisites>
-        <baseCost>1000</baseCost>
+		<baseCost>1000</baseCost>
 		<researchViewX>3.00</researchViewX>
 		<researchViewY>2.70</researchViewY>
 	</ResearchProjectDef>
@@ -15,13 +15,45 @@
 	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
 		<defName>GW_IF_RoyalStuff</defName>
 		<label>imperium royal furniture</label>
-        <description>Craft furniture suited for the Imperium of Man's decadent noble classes.</description>
+		<description>Craft furniture suited for the Imperium of Man's decadent noble classes.</description>
 		<prerequisites>
 			<li>GW_IF_CommonStuff</li>
 		</prerequisites>
-        <baseCost>1500</baseCost>
+		<baseCost>1500</baseCost>
 		<researchViewX>4.00</researchViewX>
 		<researchViewY>2.70</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="GW_ImperiumTechBase" MayRequire="ludeon.rimworld.royalty">
+		<defName>GW_GoldenThrone</defName>
+		<label>golden throne</label>
+		<description>Construct the golden throne, the ancient Eldar artifact capable of connecting a psyker to their Webway.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>5.00</researchViewX>
+		<researchViewY>4.70</researchViewY>
+		<generalRules>
+			<rulesStrings>
+				<li>subject->the Golden Throne</li>
+
+				<li>subject_story->studied old fragments of Eldari artifacts</li>
+				<li>subject_story->worked with the Imperium to excavate the original Golden Throne</li>
+				<li>subject_story->worked on the service worship force polishing and maintaining the Golden Throne</li>
+
+				<li>subject_gerund->researching the Golden Throne</li>
+			</rulesStrings>
+		</generalRules>
+		<modExtensions>
+			<li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+				<StudyLocation>GW_Cogitator</StudyLocation>
+				<ItemStudyRequirements>
+					<li Class="GW_Frame.StudyRequirement">
+						<StudyObject>GW_STC_Fragment</StudyObject>
+						<NumberRequired>5</NumberRequired>
+					</li>
+				</ItemStudyRequirements>
+			</li>
+		</modExtensions>
 	</ResearchProjectDef>
 	
 

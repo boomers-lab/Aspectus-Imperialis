@@ -1,0 +1,101 @@
+<Defs>
+
+	<!--Throne Core-->
+	<ThingDef ParentName="ThroneBase" MayRequire="ludeon.rimworld.royalty">
+		<defName>GWGT_GoldenThrone</defName>
+		<label>Golden Throne</label>
+		<description>Big chair make psyker soul go brrrt</description>
+		<graphicData>
+			<texPath>Furnitures/GoldenThrone/GoldenThrone</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(7,5)</drawSize>
+		</graphicData>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<category>Building</category>        
+
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<pathCost>30</pathCost>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+		<ritualFocus>
+			<spectateDistance>10</spectateDistance>
+			<allowedSpectateSides>Up</allowedSpectateSides>
+		</ritualFocus>
+		<placeWorkers>
+			<li>PlaceWorker_RitualFocus</li>
+			<li>GoldenThrone.Buildings.PlaceWorker_GoldenThrone</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>True</drawPlaceWorkersWhileSelected>
+
+        
+		<thingCategories Inherit="False"/>
+
+		<researchPrerequisites>
+			<li>GW_GoldenThrone</li>
+		</researchPrerequisites>
+		<size>(5,3)</size>
+		<blockWind>true</blockWind>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MeditationFocusStrength>0.15</MeditationFocusStrength>
+			<MaxHitPoints>800</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>400</Beauty>
+			<Comfort>1.0</Comfort>
+			<Mass>3000</Mass>
+		</statBases>
+		<costList>
+			<Gold>1000</Gold>
+			<HP_Auramite>35</HP_Auramite>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+		</costList>
+		<comps>
+			<li Class="CompProperties_AssignableToPawn">
+				<drawAssignmentOverlay>true</drawAssignmentOverlay>
+				<compClass>CompAssignableToPawn_Throne</compClass>
+				<noAssignablePawnsDesc>Throne ownership requires a person with a royal title.</noAssignablePawnsDesc>
+			</li>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Dignified</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_ThroneSatisfiesRequirements">
+						<offset>0.08</offset>
+					</li>
+					<li Class="FocusStrengthOffset_RoomImpressiveness">
+						<curve>
+							<points>
+								<li>(0,   -0.05)</li>
+								<li>(30,   0.00)</li>
+								<li>(60,   0.04)</li>
+								<li>(100,  0.08)</li>
+								<li>(170,  0.10)</li>
+							</points>
+						</curve>
+					</li>
+				</offsets>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>800</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>14</glowRadius>
+				<overlightRadius>14</overlightRadius>
+				<glowColor>(204, 204, 204, 255)</glowColor>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<designationCategory>GrimworldCategory</designationCategory>
+		<constructEffect>ConstructMetal</constructEffect>
+		<constructionSkillPrerequisite>14</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>
