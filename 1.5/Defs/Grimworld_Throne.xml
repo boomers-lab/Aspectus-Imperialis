@@ -11,7 +11,7 @@
 			<drawSize>(7,5)</drawSize>
 		</graphicData>
 		<defaultPlacingRot>South</defaultPlacingRot>
-		<category>Building</category>        
+		<category>Building</category>
 
 		<hasInteractionCell>true</hasInteractionCell>
 		<interactionCellOffset>(0,0,1)</interactionCellOffset>
@@ -28,9 +28,6 @@
 			<li>PlaceWorker_RitualFocus</li>
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>True</drawPlaceWorkersWhileSelected>
-
-        
-		<thingCategories Inherit="False"/>
 
 		<researchPrerequisites>
 			<li>GW_GoldenThrone</li>
