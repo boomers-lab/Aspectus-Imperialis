@@ -6,7 +6,7 @@
 		<label>Golden Throne</label>
 		<description>WIP</description>
 		<graphicData>
-			<texPath>Furnitures/GoldenThrone/GoldenThrone</texPath>
+			<texPath>Furniture/GoldenThrone/GoldenThrone</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(7,5)</drawSize>
 		</graphicData>
@@ -26,7 +26,6 @@
 		</ritualFocus>
 		<placeWorkers>
 			<li>PlaceWorker_RitualFocus</li>
-			<li>GoldenThrone.Buildings.PlaceWorker_GoldenThrone</li>
 		</placeWorkers>
 		<drawPlaceWorkersWhileSelected>True</drawPlaceWorkersWhileSelected>
 
@@ -93,7 +92,7 @@
 			<li Class="CompProperties_Flickable"/>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-		<designationCategory>GrimworldCategory</designationCategory>
+		<designationCategory>GW_IF_Furniture</designationCategory>
 		<constructEffect>ConstructMetal</constructEffect>
 		<constructionSkillPrerequisite>14</constructionSkillPrerequisite>
 	</ThingDef>
