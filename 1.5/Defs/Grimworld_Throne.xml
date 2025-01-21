@@ -38,11 +38,11 @@
 		<blockWind>true</blockWind>
 		<rotatable>true</rotatable>
 		<statBases>
-			<MeditationFocusStrength>0.15</MeditationFocusStrength>
+			<MeditationFocusStrength>0.20</MeditationFocusStrength>
 			<MaxHitPoints>800</MaxHitPoints>
 			<WorkToBuild>10000</WorkToBuild>
 			<Flammability>0</Flammability>
-			<Beauty>400</Beauty>
+			<Beauty>180</Beauty>
 			<Comfort>1.0</Comfort>
 			<Mass>3000</Mass>
 		</statBases>
