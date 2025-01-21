@@ -3,6 +3,7 @@
 	<!--Throne Core-->
 	<ThingDef ParentName="ThroneBase" MayRequire="ludeon.rimworld.royalty">
 		<defName>GWGT_GoldenThrone</defName>
+		<thingClass>Building_Throne</thingClass>
 		<label>Golden Throne</label>
 		<description>WIP</description>
 		<graphicData>
@@ -12,6 +13,7 @@
 		</graphicData>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<category>Building</category>
+		<passability>PassThroughOnly</passability>
 
 		<hasInteractionCell>true</hasInteractionCell>
 		<interactionCellOffset>(0,0,1)</interactionCellOffset>
