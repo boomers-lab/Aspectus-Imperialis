@@ -18,7 +18,7 @@
 		<hasInteractionCell>true</hasInteractionCell>
 		<interactionCellOffset>(0,0,1)</interactionCellOffset>
 		<socialPropernessMatters>true</socialPropernessMatters>
-		<pathCost>30</pathCost>
+		<pathCost>100</pathCost>
 		<building>
 			<isSittable>true</isSittable>
 		</building>
