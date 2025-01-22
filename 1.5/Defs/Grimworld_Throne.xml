@@ -4,7 +4,7 @@
 	<ThingDef ParentName="ThroneBase" MayRequire="ludeon.rimworld.royalty">
 		<defName>GWGT_GoldenThrone</defName>
 		<thingClass>Building_Throne</thingClass>
-		<label>Golden Throne</label>
+		<label>Imperial psythrone</label>
 		<description>WIP</description>
 		<graphicData>
 			<texPath>Furniture/GoldenThrone/GoldenThrone</texPath>
