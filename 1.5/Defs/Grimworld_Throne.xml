@@ -83,7 +83,9 @@
 		<costList>
 			<Gold>400</Gold>
 			<HP_Auramite>35</HP_Auramite>
-			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ComponentSpacer>3</ComponentSpacer>
 		</costList>
 		<comps>
 			<li Class="CompProperties_AssignableToPawn" MayRequire="ludeon.rimworld.royalty">
