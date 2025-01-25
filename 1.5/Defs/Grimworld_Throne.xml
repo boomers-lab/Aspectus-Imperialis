@@ -47,7 +47,7 @@
 			<Mass>3000</Mass>
 		</statBases>
 		<costList>
-			<Gold>1000</Gold>
+			<Gold>400</Gold>
 			<HP_Auramite>35</HP_Auramite>
 			<GW_ComponentRelic>5</GW_ComponentRelic>
 		</costList>
