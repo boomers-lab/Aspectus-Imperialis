@@ -1,0 +1,43 @@
+<Patch>
+
+	<!-- <Operation Class="PatchOperationFindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>Royalty [Official DLC]</li> -->
+		<!-- </mods> -->
+		<!-- <match Class="PatchOperationAdd"> -->
+			<!-- <xpath>Defs/RoyalTitleDef[@ParentName="BaseEmpireTitle"]/bedroomRequirements/li[@Class="RoomRequirement_ThingAnyOf"]/things</xpath> -->
+			<!-- <value> -->
+				<!-- <li>GW_IF_RoyalSingle</li> -->
+				<!-- <li>GW_IF_RoyalDouble</li> -->
+			<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	<!-- <Operation Class="PatchOperationFindMod"> -->
+		<!-- <mods> -->
+			<!-- <li>Royalty [Official DLC]</li> -->
+		<!-- </mods> -->
+		<!-- <match Class="PatchOperationReplace"> -->
+			<!-- <xpath>Defs/ThingDef[defName="GWGT_GoldenThrone"]/thingClass</xpath> -->
+			<!-- <value> -->
+				<!-- <thingClass>Building_Throne</thingClass> -->
+			<!-- </value> -->
+		<!-- </match> -->
+	<!-- </Operation> -->
+	
+	<Operation Class="PatchOperationAdd">
+	<xpath>Defs/RoyalTitleDef[@ParentName="BaseEmpireTitle"]/bedroomRequirements/li[@Class="RoomRequirement_ThingAnyOf"]/things</xpath>
+	<value>
+	<li>GW_IF_RoyalSingle</li>
+	<li>GW_IF_RoyalDouble</li>
+	</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="GWGT_GoldenThrone"]</xpath>
+    <value>
+      <thingClass>Building_Throne</thingClass>
+    </value>
+  </Operation>
+	
+</Patch>

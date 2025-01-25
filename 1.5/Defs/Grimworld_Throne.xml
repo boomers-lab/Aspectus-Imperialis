@@ -72,7 +72,7 @@
 		<blockWind>true</blockWind>
 		<rotatable>true</rotatable>
 		<statBases>
-			<MeditationFocusStrength>0.20</MeditationFocusStrength>
+			<MeditationFocusStrength MayRequire="ludeon.rimworld.royalty">0.20</MeditationFocusStrength>
 			<MaxHitPoints>800</MaxHitPoints>
 			<WorkToBuild>10000</WorkToBuild>
 			<Flammability>0</Flammability>
@@ -113,7 +113,7 @@
 					</li>
 				</offsets>
 			</li>
-			<li Class="CompProperties_Power">
+			<li Class="CompProperties_Power" MayRequire="ludeon.rimworld.royalty">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>800</basePowerConsumption>
 			</li>
