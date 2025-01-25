@@ -24,7 +24,7 @@
 		<researchViewY>2.70</researchViewY>
 	</ResearchProjectDef>
 	
-	<ResearchProjectDef ParentName="GW_ImperiumTechBase" MayRequire="ludeon.rimworld.royalty">
+	<ResearchProjectDef ParentName="GW_ImperiumTechBase">
 		<defName>GW_GoldenThrone</defName>
 		<label>Imperial psythrone</label>
 		<description>WIP. Construct the golden throne, the ancient Eldar artifact capable of connecting a psyker to their Webway.</description>

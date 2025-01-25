@@ -38,7 +38,6 @@
 	<!--Throne Core-->
 	<ThingDef ParentName="GW_ThroneBase">
 		<defName>GWGT_GoldenThrone</defName>
-		<thingClass>Building_Throne</thingClass>
 		<label>Imperial psythrone</label>
 		<description>A potent meditation throne, modelled after the Emperor's Golden Throne on Terra. While it is nowhere near as powerful as the Terran equivalent (due to its use of ancient and arcane technology), it can certainly help a dignity-focused psycaster channel and train their psychic abilities. \n\nThe tech-priest who created this design claimed to be given divine inspiration by the Emperor Himself. The plan is to create a temporary psychic beacon in the Warp, which will hopefully summon reinforcements and rescue. However, while he has received the general approval of the fleet's leadership, he is constantly evading accusations of heresy and tech-heresy, slowing his progress to a crawl.</description>
 		<graphicData>
