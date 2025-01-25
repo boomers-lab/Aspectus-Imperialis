@@ -1,7 +1,42 @@
 <Defs>
-
+	<ThingDef ParentName="FurnitureWithQualityBase" Name="GW_ThroneBase" Abstract="True">
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <drawGUIOverlayQuality>false</drawGUIOverlayQuality>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <altitudeLayer>Building</altitudeLayer>
+    <category>Building</category>
+    <hasInteractionCell>true</hasInteractionCell>
+    <thingClass>Building</thingClass>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <pathCost>30</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <MeditationFocusStrength>0.15</MeditationFocusStrength>
+    </statBases>
+    <building>
+      <isSittable>true</isSittable>
+      <paintable>true</paintable>
+    </building>
+    <researchPrerequisites>
+      <li>ComplexFurniture</li>
+    </researchPrerequisites>
+    <ritualFocus>
+      <spectateDistance>2</spectateDistance>
+      <allowedSpectateSides>Up</allowedSpectateSides>
+    </ritualFocus>
+    <placeWorkers>
+      <li>PlaceWorker_RitualFocus</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>True</drawPlaceWorkersWhileSelected>
+    <comps>
+    </comps>
+  </ThingDef>
+	
 	<!--Throne Core-->
-	<ThingDef ParentName="ThroneBase" MayRequire="ludeon.rimworld.royalty">
+	<ThingDef ParentName="GW_ThroneBase">
 		<defName>GWGT_GoldenThrone</defName>
 		<thingClass>Building_Throne</thingClass>
 		<label>Imperial psythrone</label>
@@ -52,12 +87,12 @@
 			<GW_ComponentRelic>5</GW_ComponentRelic>
 		</costList>
 		<comps>
-			<li Class="CompProperties_AssignableToPawn">
+			<li Class="CompProperties_AssignableToPawn" MayRequire="ludeon.rimworld.royalty">
 				<drawAssignmentOverlay>true</drawAssignmentOverlay>
 				<compClass>CompAssignableToPawn_Throne</compClass>
 				<noAssignablePawnsDesc>Throne ownership requires a person with a royal title.</noAssignablePawnsDesc>
 			</li>
-			<li Class="CompProperties_MeditationFocus">
+			<li Class="CompProperties_MeditationFocus" MayRequire="ludeon.rimworld.royalty">
 				<statDef>MeditationFocusStrength</statDef>
 				<focusTypes>
 					<li>Dignified</li>
@@ -88,7 +123,6 @@
 				<overlightRadius>14</overlightRadius>
 				<glowColor>(204, 204, 204, 255)</glowColor>
 			</li>
-			<li Class="CompProperties_Flickable"/>
 		</comps>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<designationCategory>GW_IF_Furniture</designationCategory>
