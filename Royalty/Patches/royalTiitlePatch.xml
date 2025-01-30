@@ -43,7 +43,7 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/RoyalTitleDef[@ParentName="BaseEmpireTitle"]/throneRoomRequirements/li[@Class="RoomRequirement_HasAssignedThroneAnyOf"]/things</xpath>
 		<value>
-			<li>GoldenThrone</li>
+			<li>GWGT_GoldenThrone</li>
 		</value>
 	</Operation>
 	
