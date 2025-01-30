@@ -5,6 +5,11 @@
     <value>
       <li>GW40k_2x1Gate</li>
       <li>GW40k_3x1Gate</li>
+      <li>GW_ImperialisDoor</li>
+      <li>GW_ImperialisAutodoor</li>
+      <li>GW_MechanicusDoor</li>
+      <li>GW_MechanicusAutodoor</li>
+      <li>GW_BlastDoor</li>
     </value>
   </Operation>
 	
