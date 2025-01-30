@@ -1,0 +1,11 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Wall"]/building/relatedBuildCommands</xpath>
+    <value>
+      <li>GW40k_2x1Gate</li>
+      <li>GW40k_3x1Gate</li>
+    </value>
+  </Operation>
+	
+</Patch>
