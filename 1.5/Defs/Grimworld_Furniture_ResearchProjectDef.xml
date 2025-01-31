@@ -54,7 +54,7 @@
 				<ItemStudyRequirements>
 					<li Class="GW_Frame.StudyRequirement">
 						<StudyObject>GW_STC_Fragment</StudyObject>
-						<NumberRequired>5</NumberRequired>
+						<NumberRequired>1</NumberRequired>
 					</li>
 				</ItemStudyRequirements>
 			</li>
