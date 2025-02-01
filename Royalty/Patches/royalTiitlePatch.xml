@@ -25,25 +25,32 @@
 	<!-- </match> -->
 	<!-- </Operation> -->
 	
-	<Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/RoyalTitleDef[@ParentName="BaseEmpireTitle"]/bedroomRequirements/li[@Class="RoomRequirement_ThingAnyOf"]/things</xpath>
-		<value>
-			<li>GW_IF_RoyalSingle</li>
-			<li>GW_IF_RoyalDouble</li>
-		</value>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/RoyalTitleDef[@ParentName="BaseEmpireTitle"]/bedroomRequirements/li[@Class="RoomRequirement_ThingAnyOf"]/things</xpath>
+				<value>
+					<li>GW_IF_RoyalSingle</li>
+					<li>GW_IF_RoyalDouble</li>
+				</value>
+		</match>		
+	</Operation>
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/RoyalTitleDef[@ParentName="BaseEmpireTitle"]/throneRoomRequirements/li[@Class="RoomRequirement_HasAssignedThroneAnyOf"]/things</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/RoyalTitleDef[@ParentName="BaseEmpireTitle"]/throneRoomRequirements/li[@Class="RoomRequirement_HasAssignedThroneAnyOf"]/things</xpath>
+				<value>
+					<li>GW_IF_RoyalSingle</li>
+					<li>GW_IF_RoyalDouble</li>
+				</value>
+		</match>		
 	</Operation>
 	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="GWGT_GoldenThrone"]</xpath>
 		<value>
 			<thingClass>Building_Throne</thingClass>
-		</value>
-	</Operation>
-	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/RoyalTitleDef[@ParentName="BaseEmpireTitle"]/throneRoomRequirements/li[@Class="RoomRequirement_HasAssignedThroneAnyOf"]/things</xpath>
-		<value>
-			<li>GWGT_GoldenThrone</li>
 		</value>
 	</Operation>
 	
