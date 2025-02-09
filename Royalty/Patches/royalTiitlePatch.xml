@@ -41,14 +41,13 @@
 		<match Class="PatchOperationAdd">
 			<xpath>Defs/RoyalTitleDef[@ParentName="BaseEmpireTitle"]/throneRoomRequirements/li[@Class="RoomRequirement_HasAssignedThroneAnyOf"]/things</xpath>
 				<value>
-					<li>GW_IF_RoyalSingle</li>
-					<li>GW_IF_RoyalDouble</li>
+					<li>GWGT_GoldenThrone</li>
 				</value>
 		</match>		
 	</Operation>
 	
-	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="GWGT_GoldenThrone"]</xpath>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GWGT_GoldenThrone"]/thingClass</xpath>
 		<value>
 			<thingClass>Building_Throne</thingClass>
 		</value>

@@ -1,45 +1,46 @@
 <Defs>
 	<ThingDef ParentName="FurnitureWithQualityBase" Name="GW_ThroneBase" Abstract="True">
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <drawGUIOverlayQuality>false</drawGUIOverlayQuality>
-    <defaultPlacingRot>South</defaultPlacingRot>
-    <altitudeLayer>Building</altitudeLayer>
-    <category>Building</category>
-    <hasInteractionCell>true</hasInteractionCell>
-    <thingClass>Building</thingClass>
-    <socialPropernessMatters>true</socialPropernessMatters>
-    <pathCost>30</pathCost>
-    <fillPercent>0.4</fillPercent>
-    <thingSetMakerTags>
-      <li>RewardStandardQualitySuper</li>
-    </thingSetMakerTags>
-    <statBases>
-      <MeditationFocusStrength>0.15</MeditationFocusStrength>
-    </statBases>
-    <building>
-      <isSittable>true</isSittable>
-      <paintable>true</paintable>
-    </building>
-    <researchPrerequisites>
-      <li>ComplexFurniture</li>
-    </researchPrerequisites>
-    <ritualFocus>
-      <spectateDistance>2</spectateDistance>
-      <allowedSpectateSides>Up</allowedSpectateSides>
-    </ritualFocus>
-    <placeWorkers>
-      <li>PlaceWorker_RitualFocus</li>
-    </placeWorkers>
-    <drawPlaceWorkersWhileSelected>True</drawPlaceWorkersWhileSelected>
-    <comps>
-    </comps>
-  </ThingDef>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<drawGUIOverlayQuality>false</drawGUIOverlayQuality>
+		<defaultPlacingRot>South</defaultPlacingRot>
+		<altitudeLayer>Building</altitudeLayer>
+		<category>Building</category>
+		<hasInteractionCell>true</hasInteractionCell>
+		<thingClass>Building</thingClass>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<pathCost>30</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<statBases>
+			<MeditationFocusStrength>0.15</MeditationFocusStrength>
+		</statBases>
+		<building>
+			<isSittable>true</isSittable>
+			<paintable>true</paintable>
+		</building>
+		<researchPrerequisites>
+			<li>GW_GoldenThrone</li>
+		</researchPrerequisites>
+		<ritualFocus>
+			<spectateDistance>2</spectateDistance>
+			<allowedSpectateSides>Up</allowedSpectateSides>
+		</ritualFocus>
+		<placeWorkers>
+			<li>PlaceWorker_RitualFocus</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>True</drawPlaceWorkersWhileSelected>
+		<comps>
+		</comps>
+	</ThingDef>
 	
 	<!--Throne Core-->
 	<ThingDef ParentName="GW_ThroneBase">
 		<defName>GWGT_GoldenThrone</defName>
 		<label>Imperial psythrone</label>
 		<description>A potent meditation throne, modelled after the Emperor's Golden Throne on Terra. While it is nowhere near as powerful as the Terran equivalent (due to its use of ancient and arcane technology), it can certainly help a dignity-focused psycaster channel and train their psychic abilities. \n\nThe tech-priest who created this design claimed to be given divine inspiration by the Emperor Himself. The plan is to create a temporary psychic beacon in the Warp, which will hopefully summon reinforcements and rescue. However, while he has received the general approval of the fleet's leadership, he is constantly evading accusations of heresy and tech-heresy, slowing his progress to a crawl.</description>
+		<thingClass>Building_Throne</thingClass>
 		<graphicData>
 			<texPath>Furniture/GoldenThrone/GoldenThrone</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -47,10 +48,10 @@
 		</graphicData>
 		<defaultPlacingRot>South</defaultPlacingRot>
 		<category>Building</category>
-		<passability>PassThroughOnly</passability>
+		<passability>Standable</passability>
 
 		<hasInteractionCell>true</hasInteractionCell>
-		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<interactionCellOffset>(0,0,0)</interactionCellOffset>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<pathCost>100</pathCost>
 		<building>
@@ -114,10 +115,6 @@
 						</curve>
 					</li>
 				</offsets>
-			</li>
-			<li Class="CompProperties_Power" MayRequire="ludeon.rimworld.royalty">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>800</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>14</glowRadius>
