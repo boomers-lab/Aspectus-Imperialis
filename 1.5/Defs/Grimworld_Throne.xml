@@ -51,7 +51,7 @@
 		<passability>Standable</passability>
 
 		<hasInteractionCell>true</hasInteractionCell>
-		<interactionCellOffset>(0,0,0)</interactionCellOffset>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<pathCost>100</pathCost>
 		<building>
