@@ -20,9 +20,9 @@
         <building>
             <isEdifice>False</isEdifice>
         </building>
-        <blocksAltitudes>
-            <li>Item</li>
-        </blocksAltitudes>
+        <!-- <blocksAltitudes> -->
+            <!-- <li>Item</li> -->
+        <!-- </blocksAltitudes> -->
         <defaultPlacingRot>South</defaultPlacingRot>
         <comps>
             <li Class="CompProperties_Glower">
