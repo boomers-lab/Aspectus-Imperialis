@@ -14,7 +14,7 @@
 			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
 		<statBases>
-			<MeditationFocusStrength>0.15</MeditationFocusStrength>
+			<MeditationFocusStrength>0.25</MeditationFocusStrength>
 		</statBases>
 		<building>
 			<isSittable>true</isSittable>
